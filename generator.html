@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.svg" type="image/x-icon" />
+    <title>Название сайта</title>
+    <!-- Slick slider CSS -->
+    <link rel="stylesheet" href="libs/slick-slider/slick.css" />
+    <!-- Magnific Popup CSS -->
+    <link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Базовые стили CSS -->
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/map.css" />
+    <link rel="stylesheet" href="css/mainMenuStyle.css" />
+    <link rel="stylesheet" href="css/productionDropdownMenuStyle.css" />
+    <link rel="stylesheet" href="./css/generator/generator.css" />
+    <link rel="stylesheet" href="./css/generator/generator-media.css" />
+    <!-- script -->
+    <script src="js/jquery-3.3.1.min.js" defer></script>
+    <!-- autoScroll -->
+    <script src="js/autosize.js" defer></script>
+    <!-- Slick slider JS -->
+    <script src="libs/slick-slider/slick.min.js" defer></script>
+    <!-- Magnific Popup JS -->
+    <script
+      src="libs/magnific-popup/jquery.magnific-popup.min.js"
+      defer
+    ></script>
+    <!-- Базовые скрипты javascript -->
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="hidden">
+      <div class="popup-wrapper" id="popup-wrapper1">
+        <div class="popup-title">Заказать звонок</div>
+        <div class="popup-subtitle">
+          Оставьте заявку и мы перезвоним <br />Вам в ближайшее время
+        </div>
+        <form class="popup-form">
+          <div class="connect-item">
+            <div class="connect-item_name">Ваше имя</div>
+            <div class="connect-item_field">
+              <input type="text" placeholder="Имя" />
+            </div>
+          </div>
+          <div class="connect-item">
+            <div class="connect-item_name">Номер телефона</div>
+            <div class="connect-item_field">
+              <input type="text" placeholder="Электронная почта" />
+            </div>
+          </div>
+          <div class="connect-btn btn">
+            <button>Отправить заявку</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="hidden">
+      <div class="popup-wrapper" id="popup-wrapper2">
+        <div class="popup-title">Оформить заказ</div>
+        <div class="popup-subtitle">
+          Оставьте заявку и мы перезвоним <br />Вам для уточнения деталей заказа
+        </div>
+        <form class="popup-form">
+          <div class="connect-item">
+            <div class="connect-item_name">Ваше имя</div>
+            <div class="connect-item_field">
+              <input type="text" placeholder="Имя" />
+            </div>
+          </div>
+          <div class="connect-item">
+            <div class="connect-item_name">Номер телефона</div>
+            <div class="connect-item_field">
+              <input type="text" placeholder="Электронная почта" />
+            </div>
+          </div>
+          <div class="connect-btn btn">
+            <button>Отправить заявку</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="hidden">
+      <div class="popup-wrapper" id="popup-wrapper3">
+        <div class="popup-title">Коммерческое <br />предложение</div>
+        <div class="popup-subtitle">
+          Текст с небольшим уточняющим <br />описанием
+        </div>
+        <form class="popup-form">
+          <div class="connect-item">
+            <div class="connect-item_name">Ваше имя</div>
+            <div class="connect-item_field">
+              <input type="text" placeholder="Имя" />
+            </div>
+          </div>
+          <div class="connect-item">
+            <div class="connect-item_name">Номер телефона</div>
+            <div class="connect-item_field">
+              <input type="text" placeholder="Электронная почта" />
+            </div>
+          </div>
+          <div class="connect-btn btn">
+            <button>Отправить заявку</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="hidden">
+      <div class="popup-wrapper popup-wrapper4" id="popup-wrapper4">
+        <div class="popup-title">Спасибо, Ваша <br />заявка принята!</div>
+        <div class="popup-subtitle">Мы свяжемся с Вами в ближайшее время</div>
+        <div class="connect-btn btn">
+          <a href="#">Закрыть</a>
+        </div>
+      </div>
+    </div>
+    <section class="main-section">
+      <div class="container">
+        <header>
+          <a href="#" class="logo">
+            <img src="img/logo.svg" alt="neuro.group" />
+          </a>
+
+          <div class="menu-wrapper">
+            <div class="productionInnerMenu">
+              <div class="innerUpper">
+                <span class="innerName">Продукция</span>
+                <div class="innerBack">
+                  <img src="img/innerBackArrow.svg" alt="innerBackArrow" />
+                  <span>Назад</span>
+                </div>
+              </div>
+              <div class="innerMenuItems">
+                <div class="innerMenuItem">
+                  <div class="innerMenuItemHeader">
+                    <a href="#"><span>Нейрохирургия</span></a>
+                    <img
+                      class="innerHeaderArrow"
+                      src="img/dropdownMenuArrow.svg"
+                      alt="dropdownMenuArrow.svg"
+                      class="dropdownMenuButton"
+                    />
+                  </div>
+                  <div class="innerMenuItems">
+                    <div class="itemName">
+                      <a href="#" class="productionItemWithArrow">
+                        <span>Нейромониторы</span>
+                        <img
+                          src="img/dropdownMenuArrow.svg"
+                          alt="dropdownMenuArrow.svg"
+                          class="dropdownMenuButton"
+                        />
+                      </a>
+                      <div class="innerChildItem">
+                        <a href="#"><span>Нейромониторы ISIS C2</span></a>
+                        <a href="#"><span>Нейромониторы ISIS IOM</span></a>
+                      </div>
+                    </div>
+                    <a href="#"><span>Навигация CURVE</span></a>
+                    <a href="#"><span>KINEVO 900 от ZEISS</span></a>
+                    <a href="#"><span>Импланты TMO TianXinFu</span></a>
+                  </div>
+                </div>
+                <div class="innerMenuItem">
+                  <div class="innerMenuItemHeader">
+                    <a href="#"><span>Хирургия</span></a>
+                    <img
+                      class="innerHeaderArrow"
+                      src="img/dropdownMenuArrow.svg"
+                      alt="dropdownMenuArrow.svg"
+                      class="dropdownMenuButton"
+                    />
+                  </div>
+                  <div class="innerMenuItems">
+                    <a href="#"><span>Нейромонитор ISIS C</span></a>
+                    <a href="#"
+                      ><span
+                        >Светодиодные бестеневые операционные лампы YUDA</span
+                      ></a
+                    >
+                    <a href="#"><span>Операционные столы YUDA</span></a>
+                    <a href="#"
+                      ><span
+                        >Мобильная напольная операционная лампа YDZ 700 mobile
+                        type</span
+                      ></a
+                    >
+                    <a href="#"><span>Импланты TMO TianXinFu</span></a>
+                  </div>
+                </div>
+                <div class="innerMenuItem">
+                  <div class="innerMenuItemHeader">
+                    <a href="#"
+                      ><span
+                        >Нейрофизиология и функциональная диагностика</span
+                      ></a
+                    >
+                    <img
+                      class="innerHeaderArrow"
+                      src="img/dropdownMenuArrow.svg"
+                      alt="dropdownMenuArrow.svg"
+                      class="dropdownMenuButton"
+                    />
+                  </div>
+                  <div class="innerMenuItems">
+                    <a href="#"><span>ISIS IOM SYSTEM</span></a>
+                    <a href="#"
+                      ><span>Монитор церебральных функций Nihon Kohden</span></a
+                    >
+                    <a href="#"><span>Neurofax EEG-1200</span></a>
+                  </div>
+                </div>
+                <div class="innerMenuItem">
+                  <div class="innerMenuItemHeader">
+                    <a href="#"><span>Анестезиология и реанимация</span></a>
+                    <img
+                      class="innerHeaderArrow"
+                      src="img/dropdownMenuArrow.svg"
+                      alt="dropdownMenuArrow.svg"
+                      class="dropdownMenuButton"
+                    />
+                  </div>
+                  <div class="innerMenuItems">
+                    <a href="#"><span>Аппарат для гипотермии Allon</span></a>
+                    <a href="#"
+                      ><span>Монитор церебральных функций Nihon Kohden</span></a
+                    >
+                    <a href="#"><span>Шприцевой насос P-400</span></a>
+                    <a href="#"><span>Инфузионный насос Proffar P-100</span></a>
+                    <a href="#"><span>Импланты TMO TianXinFu</span></a>
+                  </div>
+                </div>
+                <div class="innerMenuItem">
+                  <div class="innerMenuItemHeader">
+                    <a href="#"><span>Неонатология</span></a>
+                    <img
+                      class="innerHeaderArrow"
+                      src="img/dropdownMenuArrow.svg"
+                      alt="dropdownMenuArrow.svg"
+                      class="dropdownMenuButton"
+                    />
+                  </div>
+                  <div class="innerMenuItems">
+                    <a href="#"
+                      ><span>Открытые реанимационные системы Disonmed</span></a
+                    >
+                    <a href="#"
+                      ><span>Аппарат для детской фототерапии BL-50</span></a
+                    >
+                    <a href="#"
+                      ><span>Неонатальные инкубаторы Disonmed</span></a
+                    >
+                    <a href="#"><span>Комплектующие</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu-uzor">
+              <img src="img/menu-uzor.svg" />
+            </div>
+            <ul class="menu-box">
+              <li><a href="#">Главная</a></li>
+              <li class="productionMenuHoverItem">
+                <a href="#" class="menu-box_main">Продукция</a>
+                <div class="productionDropdownMenu">
+                  <div class="productionDropdownMenuUpper">
+                    <div class="productionDropdownMenuItem">
+                      <img
+                        class="productionMenuMainImage"
+                        src="img/dropdownMenuImage1.svg"
+                        alt="dropdownMenuImage1"
+                      />
+                      <a href="#" class="itemHeader"
+                        ><span>Нейрохирургия</span
+                        ><img
+                          src="img/dropdownMenuArrow.svg"
+                          alt="dropdownMenuArrow.svg"
+                          class="dropdownMenuButton"
+                      /></a>
+                      <div class="productionMenuItems">
+                        <div class="itemName">
+                          <a href="#" class="productionItemWithArrow">
+                            <span class="underLinedLink">Нейромониторы</span>
+                            <img
+                              src="img/dropdownMenuArrow.svg"
+                              alt="dropdownMenuArrow.svg"
+                              class="dropdownMenuButton"
+                            />
+                          </a>
+                          <div class="productionChildItem">
+                            <a href="#"
+                              ><span class="underLinedLink"
+                                >Нейромониторы ISIS C2</span
+                              ></a
+                            >
+                            <a href="#"
+                              ><span class="underLinedLink"
+                                >Нейромониторы ISIS IOM</span
+                              ></a
+                            >
+                          </div>
+                        </div>
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Навигация CURVE</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >KINEVO 900 от ZEISS</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Импланты TMO TianXinFu</span
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="productionDropdownMenuItem">
+                      <img
+                        class="productionMenuMainImage"
+                        src="img/dropdownMenuImage2.svg"
+                        alt="dropdownMenuImage2"
+                      />
+                      <a href="#" class="itemHeader"
+                        ><span>Хирургия</span
+                        ><img
+                          src="img/dropdownMenuArrow.svg"
+                          alt="dropdownMenuArrow.svg"
+                          class="dropdownMenuButton"
+                      /></a>
+                      <div class="productionMenuItems">
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Нейромонитор ISIS C</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Светодиодные бестеневые операционные лампы
+                            YUDA</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Операционные столы YUDA</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Мобильная напольная операционная лампа YDZ 700
+                            mobile type</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Импланты TMO TianXinFu</span
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="productionDropdownMenuItem">
+                      <img
+                        class="productionMenuMainImage"
+                        src="img/dropdownMenuImage3.svg"
+                        alt="dropdownMenuImage3"
+                      />
+                      <a href="#" class="itemHeader"
+                        ><span
+                          >Нейрофизиология и функциональная диагностика</span
+                        ><img
+                          src="img/dropdownMenuArrow.svg"
+                          alt="dropdownMenuArrow.svg"
+                          class="dropdownMenuButton"
+                      /></a>
+                      <div class="productionMenuItems">
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >ISIS IOM SYSTEM</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Монитор церебральных функций Nihon Kohden</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Neurofax EEG-1200</span
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="productionDropdownMenuItem">
+                      <img
+                        class="productionMenuMainImage"
+                        src="img/dropdownMenuImage4.svg"
+                        alt="dropdownMenuImage4"
+                      />
+                      <a href="#" class="itemHeader"
+                        ><span>Анастезиология и реанимация</span
+                        ><img
+                          src="img/dropdownMenuArrow.svg"
+                          alt="dropdownMenuArrow.svg"
+                          class="dropdownMenuButton"
+                      /></a>
+                      <div class="productionMenuItems">
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Аппарат для гипотермии Allon</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Монитор церебральных функций Nihon Kohden</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Шприцевой насос P-400</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Инфузионный насос Proffar P-100</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Импланты TMO TianXinFu</span
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="productionDropdownMenuItem">
+                      <img
+                        class="productionMenuMainImage"
+                        src="img/dropdownMenuImage5.svg"
+                        alt="dropdownMenuImage5"
+                      />
+                      <a href="#" class="itemHeader"
+                        ><span>Неонатология</span
+                        ><img
+                          src="img/dropdownMenuArrow.svg"
+                          alt="dropdownMenuArrow.svg"
+                          class="dropdownMenuButton"
+                      /></a>
+                      <div class="productionMenuItems">
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Открытые реанимационные системы Disonmed</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Аппарат для детской фототерапии BL-50</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Неонатальные инкубаторы Disonmed</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="underLinedLink">Комплектующие</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="productionDropdownMenuBottom">
+                    <img
+                      src="img/productsDropdownMenuImageBottom.svg"
+                      alt="productsDropdownMenuImageBottom"
+                    />
+                    <div class="bottomDropdownMenu">
+                      <a href="#" class="itemHeader"
+                        ><span class="underLinedLink">Комплектующие</span
+                        ><img
+                          src="img/dropdownMenuArrow.svg"
+                          alt="dropdownMenuArrow.svg"
+                          class="dropdownMenuButton"
+                      /></a>
+                      <div class="bottomMenuChilds">
+                        <a href="#"
+                          ><span class="underLinedLink">Нейрохирургия</span></a
+                        >
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Анастезиология и реанимация</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="underLinedLink">Неонатология</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li><a href="#">О компании</a></li>
+              <li><a href="#">Новости</a></li>
+              <li><a href="#">Видео</a></li>
+              <li><a href="#" class="menu-margin">Контакты</a></li>
+            </ul>
+            <div class="close-icon">
+              <img src="img/close-icon.svg" />
+            </div>
+          </div>
+
+          <div class="header-phone">
+            <div class="header-phone_number">+7 (499) 648-03-25</div>
+            <div class="header-phone_btn">
+              <a href="#">Заказать звонок</a>
+            </div>
+          </div>
+          <div class="burger-icon">
+            <img src="img/burger-icon.svg" />
+          </div>
+        </header>
+        <section class="header">
+          <div class="container">
+            <div class="content-header">
+              <h1>Генератор EG US-STAR</h1>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="main-uzor">
+        <img src="img/main-uzor-left.svg" />
+      </div>
+      <div class="main-uzor2">
+        <img src="img/main-uzor-right.svg" />
+      </div>
+    </section>
+    <section class="links">
+      <div class="container">
+        <ul>
+          <li class="circle"><a href="#">Продукция</a></li>
+          <li class="circle"><a href="#">Хирургия</a></li>
+          <li class="circle"><a href="#">Генератор EG US-STAR</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="generator-info">
+      <div class="container">
+        <div class="top-img-container">
+          <img src="./img/Group.svg" alt="" />
+          <img class="hidden" src="./img/logo-adaptivsvg.svg" alt="" />
+        </div>
+        <div class="columns-container">
+          <div class="column">
+            <img src="./img/generator-column-img.svg" alt="" />
+            <img class="hidden" src="./img/generator-info-adaptiv.svg" alt="" />
+            <div class="info-container">
+              <p>
+                Ключевые свойства<br />
+                генератора EG US-STAR
+              </p>
+              <div class="info-img-container">
+                <img src="./img/black-arrow.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-item">
+              <h6>Простота установки и использования аппарата</h6>
+              <span>
+                Большой сенсорный дисплей для легкой навигации по меню и выбору
+                настроек
+              </span>
+            </div>
+            <div class="column-item">
+              <h6>Интуитивность и информативность</h6>
+              <span>
+                Один универсальный разъем с автоматическим распознаванием
+                подключенного инструмента и технологии
+              </span>
+            </div>
+            <div class="column-item">
+              <h6>Совместимость с инструментами</h6>
+              <span>
+                Возможность обновления ПО через USB-порт обеспечивает
+                совместимость со всеми инструментами Engine и других
+                производителей
+              </span>
+            </div>
+            <div class="column-item">
+              <h6>Компактный размер</h6>
+              <span>
+                Компактный размер позволяет генератору быть размещенным даже в
+                небольшой операционной
+              </span>
+            </div>
+            <div class="column-item">
+              <h6>Двухпедальный привод</h6>
+              <span>
+                Эргономичный двухпедальный привод позволяет активировать
+                максимальный или изменяемый минимальный уровни подачи энергии, а
+                также инструменты
+              </span>
+            </div>
+            <div class="column-item">
+              <h6>Совместимость рукоятки</h6>
+              <span>
+                Лапароскопические рукоятки EG совместимы с большинством
+                инструментов различных производителей, использование рукояток
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="bottom-text-container">
+          <img src="./img/white-paper.svg" alt="" />
+          <div class="text-wrapper">
+            <h6>Генератор EG US-STAR</h6>
+            <p>
+              Электрохирургический генератор EG US-STAR работает на основе
+              передовой гармонической технологии – ультразвуке.
+            </p>
+            <p>
+              Генератор оснащен лапараскопическими рукоятками, совместимыми с
+              большинством инструментов различных производителей. Использование
+              рукоятки рассчитано на 150 активаций, что на 50% больше по
+              сравнению с конкурентами.
+            </p>
+          </div>
+        </div> -->
+        <section class="product-info">
+          <div class="container">
+            <img src="./img/white-paper255x255.svg" alt="" />
+
+            <div class="text-container">
+              <h5>Генератор EG US-STAR</h5>
+              <span
+                >Электрохирургический генератор EG US-STAR работает на основе
+                передовой гармонической технологии – ультразвуке.</span
+              >
+              <span
+                >Генератор оснащен лапараскопическими рукоятками, совместимыми с
+                большинством инструментов различных производителей.
+                Использование рукоятки рассчитано на 150 активаций, что на 50%
+                больше по сравнению с конкурентами.</span
+              >
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section class="levels-info">
+      <div class="container">
+        <div class="text-container">
+          <div class="text-title">
+            <h5>
+              5 уровней регулировки амплитуды колебаний лезвия для безупречного
+              баланса диссекции и коагуляции
+            </h5>
+          </div>
+          <ul>
+            <li>
+              <div class="level-wrapper">
+                Уровни<br />
+                4 и
+              </div>
+              <span
+                >Предназначены для быстрого разделения<br />
+                маловаскуляризированных тканей с их одновременной
+                коагуляцией</span
+              >
+            </li>
+            <li>
+              <div class="level-wrapper">
+                Уровень<br />
+                3
+              </div>
+              <span
+                >Является оптимальным с точки зрения баланса диссекции/<br />коагуляции</span
+              >
+            </li>
+            <li>
+              <div class="level-wrapper">
+                Уровни<br />
+                1 и
+              </div>
+              <span
+                >Предпочтительны для более выраженной коагуляции (хорошо
+                васкуляризированные ткани)</span
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="img-container">
+          <img src="./img/generator-info-img.svg" alt="" />
+          <img class="hidden" src="./img/levels-info-adaptiv.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="product-info">
+      <div class="container">
+        <img src="./img/white-paper255x255.svg" alt="" />
+
+        <div class="text-container">
+          <h5>Ультразвуковые скальпели EG</h5>
+          <span
+            >Изогнутый скальпель с технологией АТТ и ручной активацией для
+            открытых и эндоскопических вмешательств</span
+          >
+        </div>
+      </div>
+    </section>
+    <section class="product-info-list">
+      <div class="container">
+        <div class="product-info-list-container">
+          <h5>Ключевые характеристики и свойства</h5>
+          <ul>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span>Лигирование сосудов до 5мм включительно </span>
+            </li>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span>Длина инстурмента 23см, 36см; анибликовое покрытие </span>
+            </li>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span
+                >Наличие усовершенствованной подачи энергии благодаря АТТ –
+                Технологии адаптации к ткани (Adaptive Tissue Technology)
+              </span>
+            </li>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span
+                >Предназначены для одновременного рассечения и коагуляции тканей
+              </span>
+            </li>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span
+                >Возможность использования в качестве граспера, диссектора
+              </span>
+            </li>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span
+                >Наличие двух рисок на верхней бранше с индикацией 5мм облегчает
+                верификацию диаметра сосуда
+              </span>
+            </li>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span
+                >Наличие встроенного механизма тактильной звуковой индикации
+                полного сведения бранш
+              </span>
+            </li>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span>Наличие кнопок ручной активации на корпусе рукояток </span>
+            </li>
+          </ul>
+        </div>
+        <img src="./img/product-info-img.svg" alt="" />
+      </div>
+    </section>
+    <section class="product-info">
+      <div class="container">
+        <img src="./img/white-paper255x255.svg" alt="" />
+
+        <div class="text-container">
+          <h5>Ультразвуковые скальпели EG</h5>
+          <span
+            >9-см ножницы серии EG UF с технологией АТТ для открытых
+            вмешательств</span
+          >
+        </div>
+      </div>
+    </section>
+    <section class="product-info-list reverse">
+      <div class="container">
+        <div class="product-info-list-container">
+          <h5>Ключевые характеристики и свойства</h5>
+          <ul>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span
+                >Изогнутое активное лезвие расположено поверх прижимной бранши,
+                что дает полный контроль над проводимыми манипуляциями
+              </span>
+            </li>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span>Лигирование сосудов до 5мм включительно </span>
+            </li>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span>Длина инстурмента 9см </span>
+            </li>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span
+                >Наличие усовершенствованной подачи энергии благодаря АТТ –
+                Технологии адаптации к ткани (Adaptive Tissue Technology)
+              </span>
+            </li>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span
+                >Оптимальный баланс инструмента в руке хирурга благодаря
+                компактному преобразователю
+              </span>
+            </li>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span
+                >Расположенная снизу пассивная бранша защищает подлежащие
+                структуры от повреждения
+              </span>
+            </li>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span
+                >Большая апертура раскрытия браншей позволяет работать с
+                большими масивами тканей
+              </span>
+            </li>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span
+                >Возможность ручной активации: кнопки MIN и MAX охватывают
+                рукоятку окружности на 280°, обуславливая удобство их активации
+                любым пальцем
+              </span>
+            </li>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span
+                >Наличие резиновых накладок на внутренней стороне рукояток
+                сведения бранш и кнопках ручной активации препятствуют
+                скольжению и способствуют комфортному размещению в руке хирурга
+              </span>
+            </li>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span
+                >Наличие зазора при полном сжатии колец обеспечивает
+                контролируемую компрессию
+              </span>
+            </li>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span
+                >Ручная активация позволяет хирургу фокусировать внимание только
+                на операционном поле
+              </span>
+            </li>
+          </ul>
+        </div>
+        <img src="./img/product-info-img-2.svg" alt="" />
+      </div>
+    </section>
+    <section class="graphics">
+      <div class="container">
+        <div class="graphic-title">
+          <h5>
+            Улучшенный температурный контроль и большая эффективность с
+            технологией АТТ
+          </h5>
+        </div>
+
+        <div class="graphic-sub-title">
+          <h6>
+            Технология АТТ постоянно оценивает состояние ткани между браншами,
+            при этом:
+          </h6>
+        </div>
+        <div class="graphic-info">
+          <div class="item-title">
+            <img src="./img/list-mark.svg" alt="" />
+            <span
+              >Контролирует подачу энергии, обеспечивая минимальный нагрев ткани
+              при максимальной эффективности использования инструмента</span
+            >
+          </div>
+          <div class="item-title">
+            <img src="./img/list-mark.svg" alt="" />
+            <span
+              >Наличие обратной связи позволяет выполнять работу еще более
+              эффективно</span
+            >
+          </div>
+        </div>
+        <div class="graphics-items-container">
+          <div class="item">
+            <div class="item-content">
+              <div class="item-graphic-container">
+                <img src="./img/graphic-1.svg" alt="" />
+              </div>
+              <ul>
+                <li><span>1</span>Рассечение</li>
+              </ul>
+              <div class="text-container">
+                <span
+                  >Традиционная ультразвуковая технология Продолжение активации
+                  инструмента после рассечения ткани может привести к повышению
+                  температуры лезвия и неэффективному приложению энергии</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-content">
+              <div class="item-graphic-container">
+                <img src="./img/graphic-2.svg" alt="" />
+              </div>
+              <ul>
+                <li><span>1</span>Улучшенный температурный контроль</li>
+                <li><span>2</span>Время рассечения</li>
+              </ul>
+              <div class="text-container">
+                <span
+                  >Технология адаптации к ткани Оптимизированная, более точная
+                  подача энергии, позволяет улучшить температурный контроль
+                  лезвия и сокращает время, необходимое для рассечения и
+                  коагуляции тканей</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="usedge">
+      <div class="container">
+        <div class="usedge-title">
+          <h5>Области применения</h5>
+        </div>
+        <div class="usedge-items-container">
+          <div class="usedge-item">
+            <ul>
+              <li>Диссекция лимфоузлов шеи</li>
+              <li>Тиреиодэктомия/гемитиреоидэктомия</li>
+            </ul>
+            <img src="./img/usedge-item-img.svg" alt="" />
+            <img class="hidden" src="./img/usedge-adaptiv-1.svg" alt="" />
+          </div>
+          <div class="usedge-item">
+            <ul>
+              <li>Тонзиллэктомия, УПФП</li>
+              <li>Иссечение опухолей околоушной железы</li>
+            </ul>
+            <img src="./img/usedge-item-img-2.svg" alt="" />
+            <img class="hidden" src="./img/usedge-adaptiv-2.svg" alt="" />
+          </div>
+          <div class="usedge-item">
+            <ul>
+              <li>Лапароскопические колоректальные операции</li>
+              <li>Резекция рака прямой кишки • Резекция рака желудка</li>
+            </ul>
+            <img src="./img/usedge-item-img-3.svg" alt="" />
+            <img class="hidden" src="./img/usedge-adaptiv-3.svg" alt="" />
+          </div>
+          <div class="usedge-item">
+            <ul>
+              <li>Сплэнектомия</li>
+              <li>Холицистэктомия</li>
+            </ul>
+            <img src="./img/usedge-item-img-4.svg" alt="" />
+            <img class="hidden" src="./img/usedge-adaptiv-4.svg" alt="" />
+          </div>
+          <div class="usedge-item">
+            <ul>
+              <li>Диссекция тазовых лимфоузлов, лизис спаек</li>
+              <li>Субтотальная/тотальная гистерэктомия</li>
+              <li>Миомэктомия, аднексэктомия</li>
+            </ul>
+            <img src="./img/usedge-item-img-5.svg" alt="" />
+            <img class="hidden" src="./img/usedge-adaptiv-5.svg" alt="" />
+          </div>
+          <div class="usedge-item">
+            <ul>
+              <li>Радикальная хирургия рака молочной железы</li>
+              <li>Иссечение опухолей молочной железы</li>
+              <li>Диссекция подмышесных лимфоузлов</li>
+            </ul>
+            <img src="./img/usedge-item-img-6.svg" alt="" />
+            <img class="hidden" src="./img/usedge-adaptiv-6.svg" alt="" />
+          </div>
+          <div class="usedge-item">
+            <ul>
+              <li>Лобэктомия • Тотальная резекция легкого</li>
+              <li>
+                Радикальная резекция рака пищевода • Радикальная операция при
+                раке легкого
+              </li>
+            </ul>
+            <img src="./img/usedge-item-img-7.svg" alt="" />
+            <img class="hidden" src="./img/usedge-adaptiv-7.svg" alt="" />
+          </div>
+          <div class="usedge-item">
+            <ul>
+              <li>Радикальная операция рака мочевого пузыря</li>
+              <li>
+                Радикальная простатэктомия • Трансплантация почки • Радикальная
+                нефрэктомия • Иссечение кисты почки
+              </li>
+            </ul>
+            <img src="./img/usedge-item-img-8.svg" alt="" />
+            <img class="hidden" src="./img/usedge-adaptiv-8.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="equipment">
+      <div class="container">
+        <div class="equipment-title">
+          <h5>Комплектация</h5>
+        </div>
+        <div class="equipment-items-container">
+          <div class="equipment-item">
+            <img src="./img/equipment-1.svg" alt="" />
+            <img class="hidden" src="./img/equipment-adaptiv-1.svg" alt="" />
+            <div class="text-container">
+              <div class="text-item">
+                <h6>Код</h6>
+                <span>EG TR200</span>
+              </div>
+              <div class="text-item">
+                <h6>Совместимость</h6>
+                <span>EG UF 09D</span>
+              </div>
+              <div class="text-item">
+                <h6>Кол-во шт./уп.</h6>
+                <span>1 шт.</span>
+              </div>
+            </div>
+          </div>
+          <div class="equipment-item">
+            <img src="./img/equipment-2.svg" alt="" />
+            <img class="hidden" src="./img/equipment-adaptiv-2svg.svg" alt="" />
+
+            <div class="text-container">
+              <div class="text-item">
+                <h6>Код</h6>
+                <span>EG TR100</span>
+              </div>
+              <div class="text-item">
+                <h6>Совместимость</h6>
+                <span
+                  >EG US 36R, EG US 23R,<br />
+                  EG US 14R
+                </span>
+              </div>
+              <div class="text-item">
+                <h6>Кол-во шт./уп.</h6>
+                <span>1 шт.</span>
+              </div>
+            </div>
+          </div>
+          <div class="equipment-item">
+            <img src="./img/equipment-3.svg" alt="" />
+            <img class="hidden" src="./img/equipment-adaptiv-3.svg" alt="" />
+
+            <div class="text-container">
+              <div class="text-item">
+                <h6>Код</h6>
+                <span>EG UF 09D</span>
+              </div>
+              <div class="text-item">
+                <h6>Длина</h6>
+                <span>9 см</span>
+              </div>
+              <div class="text-item">
+                <h6>Форма лезвия</h6>
+                <span>Изогнутое</span>
+              </div>
+              <div class="text-item">
+                <h6>Кол-во шт./уп.</h6>
+                <span>5 шт.</span>
+              </div>
+            </div>
+          </div>
+          <div class="equipment-item">
+            <img src="./img/equipment-4.svg" alt="" />
+            <img class="hidden" src="./img/equipment-adaptiv-4.svg" alt="" />
+
+            <div class="text-container">
+              <div class="text-item">
+                <h6>Код</h6>
+                <span>EG GN 15</span>
+              </div>
+              <div class="text-item">
+                <h6>Длина</h6>
+                <span
+                  >Совместим со всеми<br />
+                  инстурментами EG</span
+                >
+              </div>
+
+              <div class="text-item">
+                <h6>Кол-во шт./уп.</h6>
+                <span>1 шт.</span>
+              </div>
+            </div>
+          </div>
+          <div class="equipment-item main-equipment-item">
+            <img src="./img/equipment-5.svg" alt="" />
+            <img class="hidden" src="./img/equipment-adaptiv-5.svg" alt="" />
+
+            <div class="text-container">
+              <div class="text-item">
+                <h6>Код</h6>
+                <span>EG US 36R</span>
+                <span>EG US 23R</span>
+                <span>EG US 14R</span>
+              </div>
+              <div class="text-item">
+                <h6>Диаметр инструмента</h6>
+                <span>5 см</span>
+                <span>5 см</span>
+                <span>5 см</span>
+              </div>
+              <div class="text-item">
+                <h6>Длина инструмента</h6>
+                <span>36 см</span>
+                <span>23 см</span>
+                <span>14 см</span>
+              </div>
+              <div class="text-item">
+                <h6>Форма лезвия</h6>
+                <span>Изогнутое</span>
+                <span>Изогнутое</span>
+                <span>Изогнутое</span>
+              </div>
+              <div class="text-item">
+                <h6>Кол-во шт./уп.</h6>
+                <span>3 шт.</span>
+                <span>3 шт.</span>
+                <span>3 шт.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="connect-section">
+      <div class="about-uzor3">
+        <img src="img/about-uzor3.svg" />
+      </div>
+      <div class="container">
+        <div class="connect-wrapper">
+          <div class="connect-left">
+            <div class="connect-title title">
+              <h2>Оставьте заявку и мы с вами свяжемся</h2>
+            </div>
+            <form class="connect-form">
+              <div class="connect-item">
+                <div class="connect-item_name">Ваше имя</div>
+                <div class="connect-item_field">
+                  <input type="text" placeholder="Имя" />
+                </div>
+              </div>
+              <div class="connect-item">
+                <div class="connect-item_name">Ваша электронная почта</div>
+                <div class="connect-item_field">
+                  <input type="text" placeholder="Электронная почта" />
+                </div>
+              </div>
+              <div class="connect-item">
+                <div class="connect-item_name">Сообщение</div>
+                <div class="connect-item_field">
+                  <textarea placeholder="Сообщение"></textarea>
+                </div>
+              </div>
+              <div class="connect-btn btn">
+                <button>Отправить заявку</button>
+              </div>
+            </form>
+          </div>
+          <div class="connect-right">
+            <img src="img/contact-img.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="footer-column footer-column1">
+            <a href="#" class="footer-logo">
+              <img src="img/logo.svg" />
+            </a>
+          </div>
+          <div class="footer-column footer-column2">
+            <ul class="footer-menu">
+              <li><a href="#">Главная</a></li>
+              <li><a href="#">Продукция</a></li>
+              <li><a href="#">О компании</a></li>
+              <li><a href="#">Новости</a></li>
+              <li><a href="#">Видео</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="footer-column footer-column3">
+            <div class="footer-info">
+              <p>21-й км Киевского ш., 3, стр. 1 Москва Россия 117133</p>
+              <p>понедельниĸ-пятница <br />10:00-18:00</p>
+              <p>
+                <a href="#">info@neuro-group.ru</a>
+              </p>
+              <p>
+                <a href="#">+7(499)648-03-25</a>
+              </p>
+              <div class="footer-info_links">
+                <a href="#" class="footer-info_link"
+                  ><img src="img/insta-icon.svg"
+                /></a>
+                <a href="#" class="footer-info_link"
+                  ><img src="img/insta-icon.svg"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-column footer-column4">
+            <div class="footer-sub">
+              <div class="footer-sub_text">
+                Подпишитесь на наши новости чтобы быть в курсе наших акций и
+                мероприятий
+              </div>
+              <form class="footer-sub_input">
+                <input type="text" placeholder="Электронная почта" />
+                <div class="btn">
+                  <button>Подписаться</button>
+                </div>
+              </form>
+              <a href="https://gasfort.ru/" class="footer-sub_gas">
+                <span>Разработчик</span>
+                <img src="img/gasfort.svg" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

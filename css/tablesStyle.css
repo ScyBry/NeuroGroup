@@ -1,0 +1,131 @@
+.tableButtons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 13px;
+}
+.modelsButtons {
+    flex-direction: unset !important;
+}
+.tableButton {
+    padding: 20px 50px !important;
+}
+.tablePopuplink {
+    display: flex;
+    justify-content: center;
+}
+.images {
+    justify-content: flex-start !important;
+    margin: 20px 0;
+}
+.dst-I_images-left {
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.gain-left-right-container {
+    gap: 20px;
+}
+.secondColumnBox {
+    gap: 28px !important;
+}
+.thirdColumnBox {
+    gap: 24px !important;
+}
+.customSecond .gain-left {
+    width: 50%;
+}
+.dstI_Image, .dstII_Image {
+    width: 100%;
+}
+.baseFunctions {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.har_columns .firstColumn {
+    flex-direction: column;
+}
+.har_column {
+    width: 100%;
+}
+.firstColumn {
+    width: 100% !important;
+}
+.firstColumn .item span {
+    width: 50% !important;
+    text-align: left;
+}
+.columnNames {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.columnNames .har__column-name {
+    width: 50%;
+}
+.customSectionStyle .gain-left {
+    padding: 0 20px;
+}
+.custom .gain-left {
+    padding-left: unset !important;
+}
+.customSecond .gain-box--yuda {
+    margin-left: 23px;
+}
+.gain-title span{
+    font-weight: 700;
+}
+@media (max-width: 990px) {
+    .dstI_container {
+        flex-direction: column-reverse !important;
+    }
+    .custom .gain-left-right-container {
+        flex-direction: column-reverse !important;
+    }
+}
+@media (max-width: 781px) {
+    .har_columns {
+        flex-direction: row !important;
+    }
+    .har_columns span {
+        font-size: 10px !important;
+    }
+    .har .container {
+        width: 90%;
+    }
+    .har .item {
+        gap: 10px;
+    }
+    .customSecond .gain-left {
+        width: 100%;
+    }
+    .customSecond .gain-left-right-container {
+        flex-direction: column-reverse !important;
+    }
+    .customSecond .gain-left p {
+        margin-bottom: 30px;
+    }
+    .customSecond .gain-title {
+        align-items: flex-start !important;
+    }
+}
+@media (max-width: 500px) {
+    .images {
+        flex-direction: row;
+        flex-wrap: nowrap !important;
+        gap: 5vw !important;
+        justify-content: center !important;
+    }
+    .dst-I_images-left {
+        width: 50%;
+    }
+}
+@media (max-width: 400px) {
+    .customSectionStyle .container {
+        max-width: unset;
+    }
+    .columnNames {
+        gap: 10px;
+    }
+}

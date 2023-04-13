@@ -1,0 +1,645 @@
+body {
+  overflow-x: hidden;
+  background: #f5f5f5;
+}
+
+section {
+  padding-bottom: 0px;
+}
+
+.main-section {
+  height: auto;
+}
+
+.header {
+  margin-top: 20px;
+}
+.header .container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.header .container .content-header {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 75px;
+  color: #00231b;
+}
+
+.links {
+  margin-top: 15px;
+}
+.links .container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.links .container ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.links .container ul li {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 20px;
+  color: #00231b;
+  opacity: 0.8;
+}
+.links .container ul li a {
+  color: #00231b;
+}
+.links .container ul li::before {
+  margin-right: 10px;
+  margin-top: 7px;
+}
+.links .container ul .links-text {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 20px;
+  color: #00231b;
+}
+
+.generator-info {
+  margin-top: 40px;
+}
+.generator-info .container {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.generator-info .container .top-img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 146px;
+  background: #fdfffe;
+}
+.generator-info .container .columns-container {
+  display: flex;
+  flex: 1 1 auto;
+  background: #fdfffe;
+  justify-content: space-between;
+}
+.generator-info .container .columns-container .column {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 670px;
+  position: relative;
+}
+.generator-info .container .columns-container .column .info-container {
+  position: absolute;
+  right: 25px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  background: #c7ddd7;
+  padding: 20px;
+}
+.generator-info .container .columns-container .column .info-container .info-img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.generator-info .container .columns-container .column .info-container .info-img-container img {
+  max-width: 69px;
+}
+.generator-info .container .columns-container .column .info-container p {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #00231b;
+}
+.generator-info .container .columns-container img {
+  height: 100%;
+  width: 100%;
+}
+.generator-info .container .columns-container .column-item {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px 75px 30px;
+  max-width: 335px;
+  max-height: 236px;
+  gap: 10px;
+  border: 1px solid rgba(0, 35, 27, 0.03);
+}
+.generator-info .container .columns-container .column-item h6 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #00231b;
+}
+.generator-info .container .columns-container .column-item span {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #6c7774;
+}
+.generator-info .container .bottom-text-container {
+  display: flex;
+  align-items: center;
+  padding-left: -80px;
+  background: #fdfffe;
+}
+.generator-info .container .bottom-text-container img {
+  filter: drop-shadow(8px 8px 20px rgba(0, 0, 0, 0.16));
+}
+.generator-info .container .bottom-text-container .text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-right: 40px;
+}
+.generator-info .container .bottom-text-container .text-wrapper h6 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 142.1%;
+  color: #00231b;
+}
+.generator-info .container .bottom-text-container .text-wrapper p {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #00231b;
+}
+.generator-info .container .product-info {
+  margin-top: 0px;
+}
+.generator-info .container .product-info .container .text-container {
+  padding: 115px 40px 115px 170px;
+}
+.generator-info .container .product-info .container img {
+  width: 440px;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+.levels-info {
+  margin-top: 95px;
+}
+.levels-info .container {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e0eae7;
+  border-radius: 37px 0px 0px 37px;
+}
+.levels-info .container .text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 0px 50px 30px;
+}
+.levels-info .container .text-container .text-title h5 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #00231b;
+}
+.levels-info .container .text-container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.levels-info .container .text-container ul li {
+  display: flex;
+  gap: 20px;
+}
+.levels-info .container .text-container ul li span {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+.levels-info .container .text-container ul li::before {
+  display: none;
+}
+.levels-info .container .text-container ul li .level-wrapper {
+  border-right: 2px solid #00d9a4;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  padding-right: 18px;
+  width: 76px;
+}
+.levels-info .container .img-container {
+  height: 100%;
+}
+.levels-info .container .img-container img {
+  height: 100%;
+  max-width: none;
+  max-height: 422px;
+  max-width: 460px;
+}
+
+.product-info {
+  margin-top: 100px;
+}
+.product-info .container {
+  position: relative;
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.product-info .container img {
+  position: absolute;
+  left: 10px;
+  top: -75px;
+  width: 365.73px;
+  height: 365.73px;
+  filter: drop-shadow(8px 8px 20px rgba(0, 0, 0, 0.16));
+}
+.product-info .container .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 45px 40px 45px 170px;
+  background: #fdfffe;
+  width: 970px;
+  min-height: 210px;
+}
+.product-info .container .text-container h5 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  color: #00231b;
+}
+.product-info .container .text-container span {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #00231b;
+}
+
+.product-info-list {
+  margin-top: 30px;
+}
+.product-info-list .container {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.product-info-list .container .product-info-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.product-info-list .container .product-info-list-container h5 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #00231b;
+}
+.product-info-list .container .product-info-list-container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.product-info-list .container .product-info-list-container ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.product-info-list .container .product-info-list-container ul li::before {
+  display: none;
+}
+.product-info-list .container .product-info-list-container ul li img {
+  width: 28px;
+  height: 28px;
+}
+.product-info-list .container .product-info-list-container ul li span {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #3f514d;
+}
+
+.reverse .container {
+  flex-direction: row-reverse;
+}
+.reverse .container .product-info-list-container {
+  margin-top: 5px;
+}
+.reverse .container img {
+  height: 960px;
+  max-height: none;
+}
+
+.graphics {
+  margin-top: 130px;
+}
+.graphics .container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.graphics .container .graphic-title {
+  margin-bottom: 10px;
+}
+.graphics .container .graphic-title h5 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  color: #00231b;
+}
+.graphics .container .graphic-sub-title {
+  margin-bottom: 10px;
+}
+.graphics .container .graphic-sub-title h6 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #00231b;
+}
+.graphics .container .graphic-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.graphics .container .graphic-info .item-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 50%;
+  margin-bottom: 0px;
+}
+.graphics .container .graphic-info .item-title img {
+  width: 28px;
+  height: 28px;
+}
+.graphics .container .graphic-info .item-title span {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #00231b;
+}
+.graphics .container .graphics-items-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.graphics .container .graphics-items-container .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: none;
+  padding: 0px;
+}
+.graphics .container .graphics-items-container .item .item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  background: #fdfffe;
+  border: 1px solid #00d9a4;
+  border-radius: 25px;
+  height: 600px;
+}
+.graphics .container .graphics-items-container .item .item-content .item-graphic-container {
+  margin-bottom: 20px;
+}
+.graphics .container .graphics-items-container .item .item-content ul {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  gap: 10px;
+}
+.graphics .container .graphics-items-container .item .item-content ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #00231b;
+}
+.graphics .container .graphics-items-container .item .item-content ul li::before {
+  display: none;
+}
+.graphics .container .graphics-items-container .item .item-content ul li span {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #00231b;
+  background: #e0eae7;
+  padding: 2px 9px;
+  border-radius: 50%;
+}
+.graphics .container .graphics-items-container .item .item-content .text-container span {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #00231b;
+}
+
+.usedge {
+  margin-top: 100px;
+}
+.usedge .container {
+  margin: 0 auto;
+  max-width: 1180px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.usedge .container .usedge-title h5 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  color: #00231b;
+  text-align: center;
+}
+.usedge .container .usedge-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.usedge .container .usedge-items-container .usedge-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fdfffe;
+  border: 1px solid rgba(0, 217, 164, 0.5);
+  border-radius: 30px;
+  width: 570px;
+  padding-left: 30px;
+}
+.usedge .container .usedge-items-container .usedge-item img {
+  max-height: none;
+  max-width: none;
+}
+.usedge .container .usedge-items-container .usedge-item ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.usedge .container .usedge-items-container .usedge-item ul li {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  list-style: disc;
+}
+.usedge .container .usedge-items-container .usedge-item ul li::before {
+  background-color: black;
+  margin-right: 10px;
+  margin-top: 8px;
+  min-width: 5px;
+  min-height: 5px;
+}
+
+.equipment {
+  margin-top: 100px;
+}
+.equipment .container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.equipment .container .equipment-title {
+  margin-bottom: 40px;
+}
+.equipment .container .equipment-title h5 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  color: #00231b;
+  text-align: center;
+}
+.equipment .container .equipment-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.equipment .container .equipment-items-container .equipment-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #e0eae7;
+  border: 2px solid #c7ddd7;
+  border-radius: 12px;
+  min-width: 570px;
+  height: 447px;
+}
+.equipment .container .equipment-items-container .equipment-item img {
+  padding: 30px 20px 40px 45px;
+  max-height: 305px;
+}
+.equipment .container .equipment-items-container .equipment-item .text-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  height: 136px;
+  border-top: 2px solid #c7ddd7;
+}
+.equipment .container .equipment-items-container .equipment-item .text-container .text-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.equipment .container .equipment-items-container .equipment-item .text-container .text-item h6 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #00231b;
+  padding: 10px;
+  border-bottom: 2px solid #00d9a4;
+}
+.equipment .container .equipment-items-container .equipment-item .text-container .text-item span {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #00231b;
+}
+.equipment .container .equipment-items-container .main-equipment-item {
+  width: 100%;
+  height: auto;
+}
+.equipment .container .equipment-items-container .main-equipment-item .text-container {
+  height: auto;
+}
+
+.connect-section {
+  margin-top: 100px;
+}
+.connect-section .connect-wrapper .connect-left .connect-title h2 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 40px;
+  color: #00231b;
+}
+
+footer {
+  margin-top: 60px;
+  background: #e2edff;
+}/*# sourceMappingURL=generator.css.map */
