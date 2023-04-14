@@ -2,6 +2,20 @@
   margin-top: 100px !important;
   max-width: 1180px;
   margin: 0 auto;
+  .slider-title {
+    h2 {
+      font-family: "Manrope", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 55px;
+      color: #00231b;
+      text-align: center;
+    }
+  }
+}
+.c-tabs {
+  margin-top: 40px;
 }
 .c-tabs-nav {
   list-style: none;

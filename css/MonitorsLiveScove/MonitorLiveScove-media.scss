@@ -1,0 +1,15 @@
+@media screen and (max-width: 1000px) {
+  .container {
+    margin: 0 10px !important;
+  }
+  .monitor-info {
+    .container {
+      margin: 0 10px;
+      .top-img-container {
+        img {
+          padding: 17px 0;
+        }
+      }
+    }
+  }
+}
