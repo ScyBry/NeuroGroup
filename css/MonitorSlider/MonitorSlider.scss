@@ -63,9 +63,59 @@
 }
 
 .c-tab__content {
-  padding: 20px;
-  position: relative;
-  animation: showTab 300ms ease-in-out both;
+  animation: showTab 500ms ease-in-out both;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .tab-main {
+    .tab-title {
+      h5 {
+        font-family: "Manrope", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 44px;
+        color: #00231b;
+      }
+    }
+    .tab-text {
+      margin-bottom: 20px;
+      span {
+        font-family: "Manrope", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #3f514d;
+      }
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      li {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        &::before {
+          display: none;
+        }
+        img {
+          width: 28px;
+          height: 28px;
+        }
+        span {
+          font-family: "Manrope", sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 22px;
+          color: #3f514d;
+        }
+      }
+    }
+  }
 }
 
 @keyframes showTab {
@@ -81,7 +131,7 @@
 
 .c-tab-nav-marker {
   min-height: 4px;
-  background-color: #fff;
+  background: #00d9a4;
   position: absolute;
   bottom: -10px;
 
