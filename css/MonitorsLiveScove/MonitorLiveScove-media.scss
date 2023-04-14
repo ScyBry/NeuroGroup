@@ -2,12 +2,89 @@
   .container {
     margin: 0 10px !important;
   }
+  .main-section {
+    padding-bottom: 30px;
+  }
   .monitor-info {
+    margin-top: 0px;
     .container {
-      margin: 0 10px;
+      margin: 0 10px !important;
+      width: auto;
       .top-img-container {
         img {
           padding: 17px 0;
+          max-width: 177px;
+          // max-height: 23px;
+        }
+      }
+      .monitor-main-info {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        img {
+          display: none;
+
+          // max-height: 150px;
+        }
+        .hidden {
+          display: block !important;
+          position: static;
+          width: 100%;
+          max-width: 100%;
+        }
+        .monitor-text-wrapper {
+          padding: 10px;
+          h6 {
+            font-size: 15px;
+            line-height: 142.1%;
+          }
+          .text-container {
+            p {
+              font-size: 14px;
+              line-height: 19px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .monitor-slider {
+    display: none;
+  }
+  .characteristics {
+    margin-top: 70px;
+    .container {
+      .title {
+        h1 {
+          padding: 10px;
+          font-size: 23px;
+          line-height: 31px;
+          text-align: left;
+        }
+      }
+      .columns-container {
+        margin-top: 20px;
+        flex-direction: column;
+        .columns-wrapper {
+          max-width: none;
+          gap: 10px;
+          .column {
+            .column-title {
+              h6 {
+                font-size: 14px;
+                line-height: 19px;
+              }
+            }
+            .column-items-container {
+              .column-item {
+                font-size: 14px;
+                line-height: 19px;
+                .item-title {
+                  width: 50%;
+                }
+              }
+            }
+          }
         }
       }
     }

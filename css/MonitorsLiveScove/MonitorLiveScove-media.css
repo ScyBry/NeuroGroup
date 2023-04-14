@@ -2,10 +2,74 @@
   .container {
     margin: 0 10px !important;
   }
+  .main-section {
+    padding-bottom: 30px;
+  }
+  .monitor-info {
+    margin-top: 0px;
+  }
   .monitor-info .container {
-    margin: 0 10px;
+    margin: 0 10px !important;
+    width: auto;
   }
   .monitor-info .container .top-img-container img {
     padding: 17px 0;
+    max-width: 177px;
+  }
+  .monitor-info .container .monitor-main-info {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .monitor-info .container .monitor-main-info img {
+    display: none;
+  }
+  .monitor-info .container .monitor-main-info .hidden {
+    display: block !important;
+    position: static;
+    width: 100%;
+    max-width: 100%;
+  }
+  .monitor-info .container .monitor-main-info .monitor-text-wrapper {
+    padding: 10px;
+  }
+  .monitor-info .container .monitor-main-info .monitor-text-wrapper h6 {
+    font-size: 15px;
+    line-height: 142.1%;
+  }
+  .monitor-info .container .monitor-main-info .monitor-text-wrapper .text-container p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .monitor-slider {
+    display: none;
+  }
+  .characteristics {
+    margin-top: 70px;
+  }
+  .characteristics .container .title h1 {
+    padding: 10px;
+    font-size: 23px;
+    line-height: 31px;
+    text-align: left;
+  }
+  .characteristics .container .columns-container {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .characteristics .container .columns-container .columns-wrapper {
+    max-width: none;
+    gap: 10px;
+  }
+  .characteristics .container .columns-container .columns-wrapper .column .column-title h6 {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .characteristics .container .columns-container .columns-wrapper .column .column-items-container .column-item {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .characteristics .container .columns-container .columns-wrapper .column .column-items-container .column-item .item-title {
+    width: 50%;
   }
 }/*# sourceMappingURL=MonitorLiveScove-media.css.map */
