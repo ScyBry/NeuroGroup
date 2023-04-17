@@ -65,6 +65,107 @@ body {
   color: #00231b;
 }
 
+.monitor-info-adaptiv {
+  margin-top: 70px;
+  width: 100%;
+}
+.monitor-info-adaptiv .container {
+  margin: 0 15px !important;
+  display: flex;
+  flex-direction: column;
+  max-width: none !important;
+}
+.monitor-info-adaptiv .container .monitor-info-adaptiv-title {
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.monitor-info-adaptiv .container .monitor-info-adaptiv-title h5 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 31px;
+  color: #00231b;
+  text-align: left;
+  width: 100%;
+}
+.monitor-info-adaptiv .container .monitor-info-adaptiv-title .title-img-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.monitor-info-adaptiv .container .monitor-info-adaptiv-title .title-img-wrapper img {
+  max-width: none;
+}
+.monitor-info-adaptiv .container .items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.monitor-info-adaptiv .container .items-container .monitor-adaptiv-item .item-img-container {
+  height: 95px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  background: #00d9a4;
+  border-radius: 14px;
+  margin-bottom: 30px;
+}
+.monitor-info-adaptiv .container .items-container .monitor-adaptiv-item .item-img-container img {
+  width: 45px;
+  height: 45px;
+}
+.monitor-info-adaptiv .container .items-container .monitor-adaptiv-item .item-img-container span {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #fdfffe;
+}
+.monitor-info-adaptiv .container .items-container .monitor-adaptiv-item .item-text-container .item-text-container--title {
+  margin-bottom: 20px;
+}
+.monitor-info-adaptiv .container .items-container .monitor-adaptiv-item .item-text-container .item-text-container--title h6 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #00231b;
+}
+.monitor-info-adaptiv .container .items-container .monitor-adaptiv-item .item-text-container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.monitor-info-adaptiv .container .items-container .monitor-adaptiv-item .item-text-container ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.monitor-info-adaptiv .container .items-container .monitor-adaptiv-item .item-text-container ul li::before {
+  display: none;
+}
+.monitor-info-adaptiv .container .items-container .monitor-adaptiv-item .item-text-container ul li img {
+  width: 17px;
+  height: 17px;
+}
+.monitor-info-adaptiv .container .items-container .monitor-adaptiv-item .item-text-container ul li span {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #3f514d;
+}
+
 .characteristics {
   margin-top: 100px;
 }
