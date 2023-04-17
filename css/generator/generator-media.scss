@@ -27,6 +27,10 @@
         img {
           display: none;
         }
+        .hidden {
+          display: block;
+          transform: rotate(0deg) !important;
+        }
       }
       .columns-container {
         flex-direction: column;

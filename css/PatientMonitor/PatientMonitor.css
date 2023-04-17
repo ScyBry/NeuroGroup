@@ -1,0 +1,184 @@
+.columns-info {
+  margin-top: 100px;
+}
+.columns-info .container {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+.columns-info .container .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.columns-info .container .column .column-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  background: linear-gradient(138.5deg, #e8f3f0 0%, #eff5ff 100%);
+}
+.columns-info .container .column .column-item .column-item-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.columns-info .container .column .column-item .column-item-title h5 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #22473e;
+}
+.columns-info .container .column .column-item .column-item-text-container p {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #6c7774;
+}
+
+.product-info-list {
+  margin-top: 100px;
+}
+.product-info-list .container {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.product-info-list .container .product-info-list-container {
+  gap: 10px;
+}
+.product-info-list .container .models-title {
+  margin-top: 30px;
+}
+.product-info-list .container .models-title h6 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #00231b;
+}
+.product-info-list .container .text-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  height: 136px;
+  border-top: 2px solid #c7ddd7;
+  gap: 10px;
+}
+.product-info-list .container .text-container .text-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.product-info-list .container .text-container .text-item h6 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #00231b;
+  padding: 10px;
+  border-bottom: 2px solid #00d9a4;
+}
+.product-info-list .container .text-container .text-item span {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #00231b;
+}
+.product-info-list .container .text-container .text-item img {
+  width: 24px;
+  height: 24px;
+}
+
+.work-info {
+  margin-top: 100px;
+}
+.work-info .container {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background: #fdfffe;
+}
+.work-info .container .column {
+  display: flex;
+  border: 1px solid rgba(0, 35, 27, 0.03);
+}
+.work-info .container .column .column-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+  height: 440px;
+  max-width: 350px;
+}
+.work-info .container .column .column-item:last-child {
+  border-left: 1px solid rgba(0, 35, 27, 0.03);
+}
+.work-info .container .column .column-item h6 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #00231b;
+}
+.work-info .container .column .column-item p {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #6c7774;
+}
+.work-info .container .column img {
+  width: 100%;
+  height: 100%;
+}
+.work-info .container .column .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background: #c7ddd7;
+  padding: 20px;
+  gap: 60px;
+}
+.work-info .container .column .text-container span {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #00231b;
+}
+.work-info .container .column .text-container img {
+  transform: rotate(-180deg);
+  max-width: 69px;
+}
+.work-info .container .column .text-container .hidden {
+  display: none;
+  transform: rotate(0deg) !important;
+}
+.work-info .container .img-container {
+  position: relative;
+}/*# sourceMappingURL=PatientMonitor.css.map */

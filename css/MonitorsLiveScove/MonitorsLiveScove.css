@@ -68,6 +68,7 @@ body {
 .monitor-info-adaptiv {
   margin-top: 70px;
   width: 100%;
+  display: none;
 }
 .monitor-info-adaptiv .container {
   margin: 0 15px !important;

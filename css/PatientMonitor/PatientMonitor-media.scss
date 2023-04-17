@@ -1,0 +1,120 @@
+@media screen and (max-width: 1000px) {
+  .columns-info {
+    margin-top: 70px;
+    .container {
+      margin: 0 10px;
+      flex-direction: column;
+      .column {
+        gap: 20px;
+        .column-item {
+          .column-item-title {
+            h5 {
+              font-size: 15px;
+              line-height: 20px;
+            }
+          }
+          .column-item-text-container {
+            p {
+              font-size: 14px;
+              line-height: 19px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .work-info {
+    margin-top: 70px;
+    .container {
+      margin: 0 10px;
+      flex-direction: column-reverse;
+      .column {
+        flex-direction: column;
+        .text-container {
+          width: 100%;
+          gap: 10px;
+          img {
+            display: none;
+          }
+          .hidden {
+            display: block;
+            max-width: 13px;
+          }
+          span {
+            font-size: 15px;
+            line-height: 20px;
+          }
+        }
+        .column-item {
+          height: auto;
+          max-width: none;
+          &:last-child {
+            border-top: 1px solid rgba(0, 35, 27, 0.03);
+            border-left: none;
+          }
+          h6 {
+            font-size: 15px;
+            line-height: 20px;
+          }
+          p {
+            font-size: 14px;
+            line-height: 19px;
+          }
+        }
+      }
+    }
+  }
+  .product-info-list {
+    margin-top: 70px;
+    .container {
+      margin: 0 10px;
+      flex-direction: column-reverse;
+      .product-info-list-container {
+        ul {
+          li {
+            img {
+              width: 17px;
+              height: 17px;
+            }
+          }
+        }
+        .models-title {
+          margin-top: 20px;
+          h6 {
+            font-size: 15px;
+            line-height: 20px;
+          }
+        }
+        .text-container {
+          height: auto;
+          justify-content: center;
+          align-items: center;
+          padding: 0px;
+          gap: 10px;
+
+          .text-item {
+            width: 45%;
+            &:nth-child(4) {
+              margin-top: 6px;
+            }
+            &:last-child {
+              width: 100%;
+            }
+            h6 {
+              font-size: 14px;
+              line-height: 19px;
+              width: 100%;
+            }
+            span {
+              font-size: 14px;
+              line-height: 19px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .connect-section {
+    margin-top: 70px;
+  }
+}

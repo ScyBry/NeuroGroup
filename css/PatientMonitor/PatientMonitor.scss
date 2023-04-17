@@ -1,0 +1,185 @@
+.columns-info {
+  margin-top: 100px;
+  .container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    .column {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 30px;
+      .column-item {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px;
+        background: linear-gradient(138.5deg, #e8f3f0 0%, #eff5ff 100%);
+        .column-item-title {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 20px;
+          h5 {
+            font-family: 'Manrope', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 27px;
+            color: #22473e;
+          }
+        }
+        .column-item-text-container {
+          p {
+            font-family: 'Manrope', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #6c7774;
+          }
+        }
+      }
+    }
+  }
+}
+.product-info-list {
+  margin-top: 100px;
+  .container {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    .product-info-list-container {
+      gap: 10px;
+    }
+    .models-title {
+      margin-top: 30px;
+      h6 {
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 44px;
+        color: #00231b;
+      }
+    }
+    .text-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 20px;
+      height: 136px;
+      border-top: 2px solid #c7ddd7;
+      gap: 10px;
+      .text-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        h6 {
+          font-family: 'Manrope', sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 22px;
+          text-align: center;
+          color: #00231b;
+          padding: 10px;
+          border-bottom: 2px solid #00d9a4;
+        }
+        span {
+          font-family: 'Manrope', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+          text-align: center;
+          color: #00231b;
+        }
+        img {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+}
+.work-info {
+  margin-top: 100px;
+  .container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background: #fdfffe;
+    .column {
+      display: flex;
+      border: 1px solid rgba(0, 35, 27, 0.03);
+      .column-item {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 30px;
+        height: 440px;
+        max-width: 350px;
+        &:last-child {
+          border-left: 1px solid rgba(0, 35, 27, 0.03);
+        }
+        h6 {
+          font-family: 'Manrope', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 27px;
+          color: #00231b;
+        }
+        p {
+          font-family: 'Manrope', sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 22px;
+          color: #6c7774;
+        }
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      .text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        background: #c7ddd7;
+        padding: 20px;
+        gap: 60px;
+        span {
+          font-family: 'Manrope', sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 33px;
+          color: #00231b;
+        }
+        img {
+          transform: rotate(-180deg);
+          max-width: 69px;
+        }
+        .hidden {
+          display: none;
+          transform: rotate(0deg) !important;
+        }
+      }
+    }
+    .img-container {
+      position: relative;
+    }
+  }
+}

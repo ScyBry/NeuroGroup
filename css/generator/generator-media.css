@@ -28,6 +28,10 @@
   .generator-info .container .top-img-container img {
     display: none;
   }
+  .generator-info .container .top-img-container .hidden {
+    display: block;
+    transform: rotate(0deg) !important;
+  }
   .generator-info .container .columns-container {
     flex-direction: column;
     justify-content: center;

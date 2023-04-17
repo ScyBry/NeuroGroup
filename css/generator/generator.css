@@ -112,6 +112,10 @@ section {
 .generator-info .container .columns-container .column .info-container .info-img-container img {
   max-width: 69px;
 }
+.generator-info .container .columns-container .column .info-container .info-img-container .hidden {
+  display: none;
+  transform: rotate(0deg);
+}
 .generator-info .container .columns-container .column .info-container p {
   font-family: "Manrope", sans-serif;
   font-style: normal;

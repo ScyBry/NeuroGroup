@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="icon" href="favicon.svg" type="image/x-icon" />
+      <title>Название сайта</title>
+      <!-- Slick slider CSS -->
+      <link rel="stylesheet" href="libs/slick-slider/slick.css" />
+      <!-- Magnific Popup CSS -->
+      <link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
+      <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet"
+      />
+
+      <!-- Базовые стили CSS -->
+      <link rel="stylesheet" href="css/fonts.css" />
+      <link rel="stylesheet" href="css/main.css" />
+      <link rel="stylesheet" href="css/media.css" />
+      <link rel="stylesheet" href="css/map.css" />
+      <link rel="stylesheet" href="css/mainMenuStyle.css" />
+      <link rel="stylesheet" href="css/productionDropdownMenuStyle.css" />
+      <link rel="stylesheet" href="./css/generator/generator.css" />
+
+      <link rel="stylesheet" href="./css/MonitorsLiveScove/MonitorsLiveScove.css" />
+      <link rel="stylesheet" href="./css/MonitorsLiveScove/MonitorLiveScove-media.css" />
+      <link rel="stylesheet" href="./css/PatientMonitor/PatientMonitor.css" />
+      <link rel="stylesheet" href="./css/generator/generator-media.css" />
+      <link rel="stylesheet" href="./css/PatientMonitor/PatientMonitor-media.css" />
+
+      <!-- script -->
+      <script src="js/jquery-3.3.1.min.js" defer></script>
+      <!-- autoScroll -->
+      <script src="js/autosize.js" defer></script>
+      <!-- Slick slider JS -->
+      <script src="libs/slick-slider/slick.min.js" defer></script>
+      <!-- Magnific Popup JS -->
+      <script src="libs/magnific-popup/jquery.magnific-popup.min.js" defer></script>
+      <!-- Базовые скрипты javascript -->
+      <script src="js/main.js" defer></script>
+      <script src="./js/MonitorSlider.js" defer></script>
+    </head>
+  </head>
+  <body>
+    <div class="hidden">
+      <div class="popup-wrapper" id="popup-wrapper1">
+        <div class="popup-title">Заказать звонок</div>
+        <div class="popup-subtitle">
+          Оставьте заявку и мы перезвоним <br />Вам в ближайшее время
+        </div>
+        <form class="popup-form">
+          <div class="connect-item">
+            <div class="connect-item_name">Ваше имя</div>
+            <div class="connect-item_field">
+              <input type="text" placeholder="Имя" />
+            </div>
+          </div>
+          <div class="connect-item">
+            <div class="connect-item_name">Номер телефона</div>
+            <div class="connect-item_field">
+              <input type="text" placeholder="Электронная почта" />
+            </div>
+          </div>
+          <div class="connect-btn btn">
+            <button>Отправить заявку</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="hidden">
+      <div class="popup-wrapper" id="popup-wrapper2">
+        <div class="popup-title">Оформить заказ</div>
+        <div class="popup-subtitle">
+          Оставьте заявку и мы перезвоним <br />Вам для уточнения деталей заказа
+        </div>
+        <form class="popup-form">
+          <div class="connect-item">
+            <div class="connect-item_name">Ваше имя</div>
+            <div class="connect-item_field">
+              <input type="text" placeholder="Имя" />
+            </div>
+          </div>
+          <div class="connect-item">
+            <div class="connect-item_name">Номер телефона</div>
+            <div class="connect-item_field">
+              <input type="text" placeholder="Электронная почта" />
+            </div>
+          </div>
+          <div class="connect-btn btn">
+            <button>Отправить заявку</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="hidden">
+      <div class="popup-wrapper" id="popup-wrapper3">
+        <div class="popup-title">Коммерческое <br />предложение</div>
+        <div class="popup-subtitle">Текст с небольшим уточняющим <br />описанием</div>
+        <form class="popup-form">
+          <div class="connect-item">
+            <div class="connect-item_name">Ваше имя</div>
+            <div class="connect-item_field">
+              <input type="text" placeholder="Имя" />
+            </div>
+          </div>
+          <div class="connect-item">
+            <div class="connect-item_name">Номер телефона</div>
+            <div class="connect-item_field">
+              <input type="text" placeholder="Электронная почта" />
+            </div>
+          </div>
+          <div class="connect-btn btn">
+            <button>Отправить заявку</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="hidden">
+      <div class="popup-wrapper popup-wrapper4" id="popup-wrapper4">
+        <div class="popup-title">Спасибо, Ваша <br />заявка принята!</div>
+        <div class="popup-subtitle">Мы свяжемся с Вами в ближайшее время</div>
+        <div class="connect-btn btn">
+          <a href="#">Закрыть</a>
+        </div>
+      </div>
+    </div>
+    <section class="main-section">
+      <div class="container">
+        <header>
+          <a href="#" class="logo">
+            <img src="img/logo.svg" alt="neuro.group" />
+          </a>
+
+          <div class="menu-wrapper">
+            <div class="productionInnerMenu">
+              <div class="innerUpper">
+                <span class="innerName">Продукция</span>
+                <div class="innerBack">
+                  <img src="img/innerBackArrow.svg" alt="innerBackArrow" />
+                  <span>Назад</span>
+                </div>
+              </div>
+              <div class="innerMenuItems">
+                <div class="innerMenuItem">
+                  <div class="innerMenuItemHeader">
+                    <a href="#"><span>Нейрохирургия</span></a>
+                    <img
+                      class="innerHeaderArrow"
+                      src="img/dropdownMenuArrow.svg"
+                      alt="dropdownMenuArrow.svg"
+                      class="dropdownMenuButton"
+                    />
+                  </div>
+                  <div class="innerMenuItems">
+                    <div class="itemName">
+                      <a href="#" class="productionItemWithArrow">
+                        <span>Нейромониторы</span>
+                        <img
+                          src="img/dropdownMenuArrow.svg"
+                          alt="dropdownMenuArrow.svg"
+                          class="dropdownMenuButton"
+                        />
+                      </a>
+                      <div class="innerChildItem">
+                        <a href="#"><span>Нейромониторы ISIS C2</span></a>
+                        <a href="#"><span>Нейромониторы ISIS IOM</span></a>
+                      </div>
+                    </div>
+                    <a href="#"><span>Навигация CURVE</span></a>
+                    <a href="#"><span>KINEVO 900 от ZEISS</span></a>
+                    <a href="#"><span>Импланты TMO TianXinFu</span></a>
+                  </div>
+                </div>
+                <div class="innerMenuItem">
+                  <div class="innerMenuItemHeader">
+                    <a href="#"><span>Хирургия</span></a>
+                    <img
+                      class="innerHeaderArrow"
+                      src="img/dropdownMenuArrow.svg"
+                      alt="dropdownMenuArrow.svg"
+                      class="dropdownMenuButton"
+                    />
+                  </div>
+                  <div class="innerMenuItems">
+                    <a href="#"><span>Нейромонитор ISIS C</span></a>
+                    <a href="#"><span>Светодиодные бестеневые операционные лампы YUDA</span></a>
+                    <a href="#"><span>Операционные столы YUDA</span></a>
+                    <a href="#"
+                      ><span>Мобильная напольная операционная лампа YDZ 700 mobile type</span></a
+                    >
+                    <a href="#"><span>Импланты TMO TianXinFu</span></a>
+                  </div>
+                </div>
+                <div class="innerMenuItem">
+                  <div class="innerMenuItemHeader">
+                    <a href="#"><span>Нейрофизиология и функциональная диагностика</span></a>
+                    <img
+                      class="innerHeaderArrow"
+                      src="img/dropdownMenuArrow.svg"
+                      alt="dropdownMenuArrow.svg"
+                      class="dropdownMenuButton"
+                    />
+                  </div>
+                  <div class="innerMenuItems">
+                    <a href="#"><span>ISIS IOM SYSTEM</span></a>
+                    <a href="#"><span>Монитор церебральных функций Nihon Kohden</span></a>
+                    <a href="#"><span>Neurofax EEG-1200</span></a>
+                  </div>
+                </div>
+                <div class="innerMenuItem">
+                  <div class="innerMenuItemHeader">
+                    <a href="#"><span>Анестезиология и реанимация</span></a>
+                    <img
+                      class="innerHeaderArrow"
+                      src="img/dropdownMenuArrow.svg"
+                      alt="dropdownMenuArrow.svg"
+                      class="dropdownMenuButton"
+                    />
+                  </div>
+                  <div class="innerMenuItems">
+                    <a href="#"><span>Аппарат для гипотермии Allon</span></a>
+                    <a href="#"><span>Монитор церебральных функций Nihon Kohden</span></a>
+                    <a href="#"><span>Шприцевой насос P-400</span></a>
+                    <a href="#"><span>Инфузионный насос Proffar P-100</span></a>
+                    <a href="#"><span>Импланты TMO TianXinFu</span></a>
+                  </div>
+                </div>
+                <div class="innerMenuItem">
+                  <div class="innerMenuItemHeader">
+                    <a href="#"><span>Неонатология</span></a>
+                    <img
+                      class="innerHeaderArrow"
+                      src="img/dropdownMenuArrow.svg"
+                      alt="dropdownMenuArrow.svg"
+                      class="dropdownMenuButton"
+                    />
+                  </div>
+                  <div class="innerMenuItems">
+                    <a href="#"><span>Открытые реанимационные системы Disonmed</span></a>
+                    <a href="#"><span>Аппарат для детской фототерапии BL-50</span></a>
+                    <a href="#"><span>Неонатальные инкубаторы Disonmed</span></a>
+                    <a href="#"><span>Комплектующие</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu-uzor">
+              <img src="img/menu-uzor.svg" />
+            </div>
+            <ul class="menu-box">
+              <li><a href="#">Главная</a></li>
+              <li class="productionMenuHoverItem">
+                <a href="#" class="menu-box_main">Продукция</a>
+                <div class="productionDropdownMenu">
+                  <div class="productionDropdownMenuUpper">
+                    <div class="productionDropdownMenuItem">
+                      <img
+                        class="productionMenuMainImage"
+                        src="img/dropdownMenuImage1.svg"
+                        alt="dropdownMenuImage1"
+                      />
+                      <a href="#" class="itemHeader"
+                        ><span>Нейрохирургия</span
+                        ><img
+                          src="img/dropdownMenuArrow.svg"
+                          alt="dropdownMenuArrow.svg"
+                          class="dropdownMenuButton"
+                      /></a>
+                      <div class="productionMenuItems">
+                        <div class="itemName">
+                          <a href="#" class="productionItemWithArrow">
+                            <span class="underLinedLink">Нейромониторы</span>
+                            <img
+                              src="img/dropdownMenuArrow.svg"
+                              alt="dropdownMenuArrow.svg"
+                              class="dropdownMenuButton"
+                            />
+                          </a>
+                          <div class="productionChildItem">
+                            <a href="#"
+                              ><span class="underLinedLink">Нейромониторы ISIS C2</span></a
+                            >
+                            <a href="#"
+                              ><span class="underLinedLink">Нейромониторы ISIS IOM</span></a
+                            >
+                          </div>
+                        </div>
+                        <a href="#"><span class="underLinedLink">Навигация CURVE</span></a>
+                        <a href="#"><span class="underLinedLink">KINEVO 900 от ZEISS</span></a>
+                        <a href="#"><span class="underLinedLink">Импланты TMO TianXinFu</span></a>
+                      </div>
+                    </div>
+                    <div class="productionDropdownMenuItem">
+                      <img
+                        class="productionMenuMainImage"
+                        src="img/dropdownMenuImage2.svg"
+                        alt="dropdownMenuImage2"
+                      />
+                      <a href="#" class="itemHeader"
+                        ><span>Хирургия</span
+                        ><img
+                          src="img/dropdownMenuArrow.svg"
+                          alt="dropdownMenuArrow.svg"
+                          class="dropdownMenuButton"
+                      /></a>
+                      <div class="productionMenuItems">
+                        <a href="#"><span class="underLinedLink">Нейромонитор ISIS C</span></a>
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Светодиодные бестеневые операционные лампы YUDA</span
+                          ></a
+                        >
+                        <a href="#"><span class="underLinedLink">Операционные столы YUDA</span></a>
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Мобильная напольная операционная лампа YDZ 700 mobile type</span
+                          ></a
+                        >
+                        <a href="#"><span class="underLinedLink">Импланты TMO TianXinFu</span></a>
+                      </div>
+                    </div>
+                    <div class="productionDropdownMenuItem">
+                      <img
+                        class="productionMenuMainImage"
+                        src="img/dropdownMenuImage3.svg"
+                        alt="dropdownMenuImage3"
+                      />
+                      <a href="#" class="itemHeader"
+                        ><span>Нейрофизиология и функциональная диагностика</span
+                        ><img
+                          src="img/dropdownMenuArrow.svg"
+                          alt="dropdownMenuArrow.svg"
+                          class="dropdownMenuButton"
+                      /></a>
+                      <div class="productionMenuItems">
+                        <a href="#"><span class="underLinedLink">ISIS IOM SYSTEM</span></a>
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Монитор церебральных функций Nihon Kohden</span
+                          ></a
+                        >
+                        <a href="#"><span class="underLinedLink">Neurofax EEG-1200</span></a>
+                      </div>
+                    </div>
+                    <div class="productionDropdownMenuItem">
+                      <img
+                        class="productionMenuMainImage"
+                        src="img/dropdownMenuImage4.svg"
+                        alt="dropdownMenuImage4"
+                      />
+                      <a href="#" class="itemHeader"
+                        ><span>Анастезиология и реанимация</span
+                        ><img
+                          src="img/dropdownMenuArrow.svg"
+                          alt="dropdownMenuArrow.svg"
+                          class="dropdownMenuButton"
+                      /></a>
+                      <div class="productionMenuItems">
+                        <a href="#"
+                          ><span class="underLinedLink">Аппарат для гипотермии Allon</span></a
+                        >
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Монитор церебральных функций Nihon Kohden</span
+                          ></a
+                        >
+                        <a href="#"><span class="underLinedLink">Шприцевой насос P-400</span></a>
+                        <a href="#"
+                          ><span class="underLinedLink">Инфузионный насос Proffar P-100</span></a
+                        >
+                        <a href="#"><span class="underLinedLink">Импланты TMO TianXinFu</span></a>
+                      </div>
+                    </div>
+                    <div class="productionDropdownMenuItem">
+                      <img
+                        class="productionMenuMainImage"
+                        src="img/dropdownMenuImage5.svg"
+                        alt="dropdownMenuImage5"
+                      />
+                      <a href="#" class="itemHeader"
+                        ><span>Неонатология</span
+                        ><img
+                          src="img/dropdownMenuArrow.svg"
+                          alt="dropdownMenuArrow.svg"
+                          class="dropdownMenuButton"
+                      /></a>
+                      <div class="productionMenuItems">
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Открытые реанимационные системы Disonmed</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="underLinedLink"
+                            >Аппарат для детской фототерапии BL-50</span
+                          ></a
+                        >
+                        <a href="#"
+                          ><span class="underLinedLink">Неонатальные инкубаторы Disonmed</span></a
+                        >
+                        <a href="#"><span class="underLinedLink">Комплектующие</span></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="productionDropdownMenuBottom">
+                    <img
+                      src="img/productsDropdownMenuImageBottom.svg"
+                      alt="productsDropdownMenuImageBottom"
+                    />
+                    <div class="bottomDropdownMenu">
+                      <a href="#" class="itemHeader"
+                        ><span class="underLinedLink">Комплектующие</span
+                        ><img
+                          src="img/dropdownMenuArrow.svg"
+                          alt="dropdownMenuArrow.svg"
+                          class="dropdownMenuButton"
+                      /></a>
+                      <div class="bottomMenuChilds">
+                        <a href="#"><span class="underLinedLink">Нейрохирургия</span></a>
+                        <a href="#"
+                          ><span class="underLinedLink">Анастезиология и реанимация</span></a
+                        >
+                        <a href="#"><span class="underLinedLink">Неонатология</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li><a href="#">О компании</a></li>
+              <li><a href="#">Новости</a></li>
+              <li><a href="#">Видео</a></li>
+              <li><a href="#" class="menu-margin">Контакты</a></li>
+            </ul>
+            <div class="close-icon">
+              <img src="img/close-icon.svg" />
+            </div>
+          </div>
+
+          <div class="header-phone">
+            <div class="header-phone_number">+7 (499) 648-03-25</div>
+            <div class="header-phone_btn">
+              <a href="#">Заказать звонок</a>
+            </div>
+          </div>
+          <div class="burger-icon">
+            <img src="img/burger-icon.svg" />
+          </div>
+        </header>
+        <section class="header">
+          <div class="container">
+            <div class="content-header">
+              <h1>Мониторы Life Scove VS</h1>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="main-uzor">
+        <img src="img/main-uzor-left.svg" />
+      </div>
+      <div class="main-uzor2">
+        <img src="img/main-uzor-right.svg" />
+      </div>
+    </section>
+    <section class="links">
+      <div class="container">
+        <ul>
+          <li class="circle"><a href="#">Продукция</a></li>
+          <li class="circle"><a href="#">Энергетические продукты </a></li>
+          <li class="circle"><a href="#">Монитор пациента PVM-4000</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="generator-info">
+      <div class="container">
+        <div class="top-img-container">
+          <img src="./img/nekhon.svg" alt="" />
+        </div>
+        <div class="columns-container">
+          <div class="column">
+            <img src="./img/info-img.svg" alt="" />
+            <img class="hidden" src="./img/adaptiv-info-img.svg" alt="" />
+            <div class="info-container">
+              <p>
+                Инновационные технологии<br />
+                для повышения<br />
+                безопасности пациента
+              </p>
+              <div class="info-img-container">
+                <img src="./img/black-arrow.svg" alt="" />
+                <img class="hidden" src="./img/black-arrow-adaptiv.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-item">
+              <h6>Неинвазивный гемодинамический мониторинг</h6>
+              <span>
+                EsCCO обеспечивает в режиме реального времени непрерывное и неинвазивное измерение
+                сердечного выброса наряду с базовыми параметрами жизненно важных функций
+              </span>
+            </div>
+            <div class="column-item">
+              <h6>Расширенный анализ аритмий ес1</h6>
+              <span>
+                Алгоритм анализа аритмии ec1 Nihon Kohden позволяет снизить на 80% количество ложных
+                сигналов. Также ec1 обнаруживает мерцательную аритмию и позволяет проводить
+                измерение QTc/QRS
+              </span>
+            </div>
+            <div class="column-item">
+              <h6>Быстрое и комфортное измерение НИАД</h6>
+              <span>
+                Технология iNIBP от Nihon Kohden определяет систолическое и диастолическое давление
+                во время раздувания манжеты
+              </span>
+            </div>
+            <div class="column-item">
+              <h6>Гарантированное качество и безопасность во время седации</h6>
+              <span>
+                Cap-ONE — это самый компактный, прочный и долговечный датчик в мире, который
+                обеспечивает мониторинг CO2 как у интубированных, так и у неинтубированных пациентов
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="bottom-text-container">
+          <img src="./img/white-paper.svg" alt="" />
+          <div class="text-wrapper">
+            <h6>Генератор EG US-STAR</h6>
+            <p>
+              Электрохирургический генератор EG US-STAR работает на основе
+              передовой гармонической технологии – ультразвуке.
+            </p>
+            <p>
+              Генератор оснащен лапараскопическими рукоятками, совместимыми с
+              большинством инструментов различных производителей. Использование
+              рукоятки рассчитано на 150 активаций, что на 50% больше по
+              сравнению с конкурентами.
+            </p>
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <section class="columns-info">
+      <div class="container">
+        <div class="column">
+          <div class="column-item">
+            <div class="column-item-title">
+              <h5>Неинвазивный гемодинамический мониторинг</h5>
+              <img src="./img/column-info-1.svg" alt="" />
+            </div>
+            <div class="column-item-text-container">
+              <p>
+                esCCO (расчетный непрерывный сердечный выброс) рассчитывает сердечный выброс,
+                используя время прохождения пульсовой волны (PWTT) и стандартные параметры
+                мониторинга – ЭКГ, пульсоксиметрию, неинвазивное давление. EsCCO обеспечивает в
+                режиме реального времени непрерывное и неинвазивное измерение сердечного выброса
+                наряду с базовыми параметрами жизненно важных функций. Без дополнительных
+                эксплуатационных расходов или аксессуаров, esCCO - очень эффективное и экономичное
+                решение.
+              </p>
+            </div>
+            <div class="column-item-img-container">
+              <img src="./img/column-item-img-1.svg" alt="" />
+            </div>
+          </div>
+          <div class="column-item">
+            <div class="column-item-title">
+              <h5>Быстрое и комфортное измерение НИАД</h5>
+              <img src="./img/column-info-2.svg" alt="" />
+            </div>
+            <div class="column-item-text-container">
+              <p>
+                Технология iNIBP от Nihon Kohden определяет систолическое и диастолическое давление
+                во время раздувания манжеты, обеспечивает комфорт пациента при измерении давления и
+                снижение времени измерения без потери точности. Кроме того, технология PWTT (Время
+                прохождения пульсовой волны) позволяет автоматически запустить неинвазивное
+                измерение кровяного давления при изменении состояния пациента
+              </p>
+            </div>
+            <div class="column-item-img-container">
+              <img src="./img/column-item-img-2.svg" alt="" />
+            </div>
+          </div>
+          <div class="column-item">
+            <div class="column-item-title">
+              <h5>Гарантированное качество и безопасность во время седации</h5>
+              <img src="./img/column-info-3.svg" alt="" />
+            </div>
+            <div class="column-item-text-container">
+              <p>
+                В настоящее время клинические руководства рекомендуют капнографию как один из
+                наиболее надежных неинвазивных методов для постоянного мониторинга и оценки
+                адекватности респираторного состояния пациента во время процедур седации и
+                обезболивания. Cap-ONE — это самый компактный, прочный и долговечный датчик в мире,
+                который обеспечивает мониторинг CO2 как у интубированных, так и у неинтубированных
+                пациентов
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="column-item">
+            <div class="column-item-title">
+              <h5>PPV/SPV Малоинвазивные индикаторы преднагрузки</h5>
+            </div>
+            <div class="column-item-text-container">
+              <p>
+                PPV (Вариабельность Пульсового давления) и SPV(Вариабельность систолического
+                давления) являются индикаторами ответа на инфузионную нагрузку. Эти индикаторы
+                полезны при проведении инфузионной терапии у пациентов на механической вентиляции
+              </p>
+            </div>
+          </div>
+          <div class="column-item">
+            <div class="column-item-title">
+              <h5>Расширенный анализ аритмий ес1</h5>
+              <img src="./img/column-info-4.svg" alt="" />
+            </div>
+            <div class="column-item-text-container">
+              <p>
+                Если слишком много ложных тревог, Вы можете не заметить, когда состояние пациента
+                становится критическим. Алгоритм анализа аритмии ec1 Nihon Kohden позволяет снизить
+                на 80% количество ложных сигналов. Также ec1 обнаруживает мерцательную аритмию и
+                позволяет проводить измерение QTc/QRS
+              </p>
+            </div>
+            <div class="column-item-img-container">
+              <img src="./img/column-item-img-3.svg" alt="" />
+            </div>
+          </div>
+          <div class="column-item">
+            <div class="column-item-title">
+              <h5>Быстрое и комфортное измерение НИАД</h5>
+              <img src="./img/column-info-5.svg" alt="" />
+            </div>
+            <div class="column-item-text-container">
+              <p>
+                PWTT (время прохождения пульсовой волны) запускает измерение НИАД, увеличивая
+                вероятность обнаружения резкого изменения кровяного давления. PWTT рассчитывается
+                неинвазивным способом: по ЭКГ и SpO2 — это время от R-зубца на ЭКГ до начала
+                периферической пульсовой волны. Если показатель PWTT превышает допустимый уровень,
+                определенный в ходе периодических измерений НИАД, то этот скачок служит сигналом к
+                внеочередному запуску измерения НИАД.
+              </p>
+            </div>
+            <div class="column-item-img-container">
+              <img src="./img/column-item-img-4.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="work-info">
+      <div class="container">
+        <div class="column">
+          <div class="column-item">
+            <h6>Иллюстрированный помощник для облегчения работы</h6>
+            <p>
+              Встроенный иллюстрированный гид-помощник делает мониторы Nihon Kohden чрезвычайно
+              удобными в использовании. Иллюстрации показывают больше информации, чем поступает со
+              звуковым сигналом тревоги
+            </p>
+          </div>
+          <div class="column-item">
+            <h6>Функция межкроватного мониторинга</h6>
+            <p>
+              Вы можете использовать любой прикроватный монитор для проверки важной информации о
+              пациентах и состояния тревог других мониторов в сети даже без центрального монитора.
+              Числовые данные для 8 пациентов или числовые данные плюс две кривые для одного
+              пациента могут отображаться на межкроватном экране
+            </p>
+          </div>
+        </div>
+        <div class="column img-container">
+          <img src="./img/work-img.svg" alt="" />
+          <div class="text-container">
+            <span>Эффективная работа<br />для персонала</span>
+            <img src="./img/black-arrow.svg" alt="" />
+            <img class="hidden" src="./img/black-arrow-adaptiv.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="product-info-list">
+      <div class="container">
+        <div class="product-info-list-container">
+          <h5>Основные опции</h5>
+          <ul>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span>Станция беспроводной сети, QI-520P </span>
+            </li>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span>Крепление на кровать, DZ-470P</span>
+            </li>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span>Термопринтер, WS-470P </span>
+            </li>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span>Батарея, SB-470P</span>
+            </li>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span>Интерфейсная плата, QI-470P</span>
+            </li>
+            <li>
+              <img src="./img/list-mark.svg" alt="" />
+              <span>Датчик CO2 cap-ONE, P910A </span>
+            </li>
+          </ul>
+          <div class="models-title">
+            <h6>Модельный ряд</h6>
+          </div>
+          <div class="text-container">
+            <div class="text-item">
+              <h6>Модель</h6>
+              <span>PVM-4763</span>
+              <span>PVM-4761</span>
+            </div>
+            <div class="text-item">
+              <h6>SpO2</h6>
+              <span>Nihon Kohden </span>
+              <span>Nihon Kohden </span>
+            </div>
+
+            <div class="text-item">
+              <h6>esCCO</h6>
+              <span>QP-470P</span>
+              <span>QP-470P</span>
+            </div>
+            <div class="text-item">
+              <h6>PWTT</h6>
+              <img src="./img/check.svg" alt="" />
+              <img src="./img/check.svg" alt="" />
+            </div>
+            <div class="text-item">
+              <h6>Мульти коннекторы</h6>
+              <span>2</span>
+              <span>-</span>
+            </div>
+          </div>
+        </div>
+        <img src="./img/product-list-img.svg" alt="" />
+      </div>
+    </section>
+    <section class="connect-section">
+      <div class="about-uzor3">
+        <img src="img/about-uzor3.svg" />
+      </div>
+      <div class="container">
+        <div class="connect-wrapper">
+          <div class="connect-left">
+            <div class="connect-title title">
+              <h2>Оставьте заявку и мы с вами свяжемся</h2>
+            </div>
+            <form class="connect-form">
+              <div class="connect-item">
+                <div class="connect-item_name">Ваше имя</div>
+                <div class="connect-item_field">
+                  <input type="text" placeholder="Имя" />
+                </div>
+              </div>
+              <div class="connect-item">
+                <div class="connect-item_name">Ваша электронная почта</div>
+                <div class="connect-item_field">
+                  <input type="text" placeholder="Электронная почта" />
+                </div>
+              </div>
+              <div class="connect-item">
+                <div class="connect-item_name">Сообщение</div>
+                <div class="connect-item_field">
+                  <textarea placeholder="Сообщение"></textarea>
+                </div>
+              </div>
+              <div class="connect-btn btn">
+                <button>Отправить заявку</button>
+              </div>
+            </form>
+          </div>
+          <div class="connect-right">
+            <img src="img/contact-img.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="footer-column footer-column1">
+            <a href="#" class="footer-logo">
+              <img src="img/logo.svg" />
+            </a>
+          </div>
+          <div class="footer-column footer-column2">
+            <ul class="footer-menu">
+              <li><a href="#">Главная</a></li>
+              <li><a href="#">Продукция</a></li>
+              <li><a href="#">О компании</a></li>
+              <li><a href="#">Новости</a></li>
+              <li><a href="#">Видео</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="footer-column footer-column3">
+            <div class="footer-info">
+              <p>21-й км Киевского ш., 3, стр. 1 Москва Россия 117133</p>
+              <p>понедельниĸ-пятница <br />10:00-18:00</p>
+              <p>
+                <a href="#">info@neuro-group.ru</a>
+              </p>
+              <p>
+                <a href="#">+7(499)648-03-25</a>
+              </p>
+              <div class="footer-info_links">
+                <a href="#" class="footer-info_link"><img src="img/insta-icon.svg" /></a>
+                <a href="#" class="footer-info_link"><img src="img/insta-icon.svg" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-column footer-column4">
+            <div class="footer-sub">
+              <div class="footer-sub_text">
+                Подпишитесь на наши новости чтобы быть в курсе наших акций и мероприятий
+              </div>
+              <form class="footer-sub_input">
+                <input type="text" placeholder="Электронная почта" />
+                <div class="btn">
+                  <button>Подписаться</button>
+                </div>
+              </form>
+              <a href="https://gasfort.ru/" class="footer-sub_gas">
+                <span>Разработчик</span>
+                <img src="img/gasfort.svg" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

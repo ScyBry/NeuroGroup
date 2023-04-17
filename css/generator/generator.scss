@@ -14,7 +14,7 @@ section {
     max-width: 1180px;
     margin: 0 auto;
     .content-header {
-      font-family: "Manrope", sans-serif;
+      font-family: 'Manrope', sans-serif;
       font-style: normal;
       font-weight: 800;
       font-size: 55px;
@@ -33,7 +33,7 @@ section {
       align-items: center;
       gap: 15px;
       li {
-        font-family: "Manrope", sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 15px;
@@ -51,7 +51,7 @@ section {
       }
 
       .links-text {
-        font-family: "Manrope", sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 15px;
@@ -104,9 +104,13 @@ section {
             img {
               max-width: 69px;
             }
+            .hidden {
+              display: none;
+              transform: rotate(0deg);
+            }
           }
           p {
-            font-family: "Manrope", sans-serif;
+            font-family: 'Manrope', sans-serif;
             font-style: normal;
             font-weight: 700;
             font-size: 24px;
@@ -129,7 +133,7 @@ section {
         border: 1px solid rgba(0, 35, 27, 0.03);
 
         h6 {
-          font-family: "Manrope", sans-serif;
+          font-family: 'Manrope', sans-serif;
           font-style: normal;
           font-weight: 700;
           font-size: 20px;
@@ -137,7 +141,7 @@ section {
           color: #00231b;
         }
         span {
-          font-family: "Manrope", sans-serif;
+          font-family: 'Manrope', sans-serif;
           font-style: normal;
           font-weight: 500;
           font-size: 16px;
@@ -162,7 +166,7 @@ section {
         padding-right: 40px;
 
         h6 {
-          font-family: "Manrope", sans-serif;
+          font-family: 'Manrope', sans-serif;
           font-style: normal;
           font-weight: 700;
           font-size: 40px;
@@ -170,7 +174,7 @@ section {
           color: #00231b;
         }
         p {
-          font-family: "Manrope", sans-serif;
+          font-family: 'Manrope', sans-serif;
           font-weight: 400;
           font-size: 16px;
           line-height: 22px;
@@ -212,7 +216,7 @@ section {
       padding: 50px 0px 50px 30px;
       .text-title {
         h5 {
-          font-family: "Manrope", sans-serif;
+          font-family: 'Manrope', sans-serif;
           font-style: normal;
           font-weight: 700;
           font-size: 20px;
@@ -229,7 +233,7 @@ section {
           display: flex;
           gap: 20px;
           span {
-            font-family: "Manrope", sans-serif;
+            font-family: 'Manrope', sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
@@ -241,7 +245,7 @@ section {
           }
           .level-wrapper {
             border-right: 2px solid #00d9a4;
-            font-family: "Manrope", sans-serif;
+            font-family: 'Manrope', sans-serif;
             font-weight: 600;
             font-size: 16px;
             line-height: 22px;
@@ -295,7 +299,7 @@ section {
       width: 970px;
       min-height: 210px;
       h5 {
-        font-family: "Manrope", sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 40px;
@@ -303,7 +307,7 @@ section {
         color: #00231b;
       }
       span {
-        font-family: "Manrope", sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -326,7 +330,7 @@ section {
       flex-direction: column;
       gap: 20px;
       h5 {
-        font-family: "Manrope", sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 32px;
@@ -349,7 +353,7 @@ section {
             height: 28px;
           }
           span {
-            font-family: "Manrope", sans-serif;
+            font-family: 'Manrope', sans-serif;
             font-style: normal;
             font-weight: 500;
             font-size: 16px;
@@ -381,7 +385,7 @@ section {
     .graphic-title {
       margin-bottom: 10px;
       h5 {
-        font-family: "Manrope", sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 32px;
@@ -392,7 +396,7 @@ section {
     .graphic-sub-title {
       margin-bottom: 10px;
       h6 {
-        font-family: "Manrope", sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 20px;
@@ -415,7 +419,7 @@ section {
           height: 28px;
         }
         span {
-          font-family: "Manrope", sans-serif;
+          font-family: 'Manrope', sans-serif;
           font-style: normal;
           font-weight: 400;
           font-size: 16px;
@@ -457,7 +461,7 @@ section {
               display: flex;
               align-items: center;
               gap: 10px;
-              font-family: "Manrope", sans-serif;
+              font-family: 'Manrope', sans-serif;
               font-style: normal;
               font-weight: 400;
               font-size: 16px;
@@ -467,7 +471,7 @@ section {
                 display: none;
               }
               span {
-                font-family: "Manrope", sans-serif;
+                font-family: 'Manrope', sans-serif;
                 font-style: normal;
                 font-weight: 700;
                 font-size: 16px;
@@ -481,7 +485,7 @@ section {
           }
           .text-container {
             span {
-              font-family: "Manrope", sans-serif;
+              font-family: 'Manrope', sans-serif;
               font-style: normal;
               font-weight: 400;
               font-size: 16px;
@@ -504,7 +508,7 @@ section {
     gap: 40px;
     .usedge-title {
       h5 {
-        font-family: "Manrope", sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 40px;
@@ -535,7 +539,7 @@ section {
           flex-direction: column;
           gap: 10px;
           li {
-            font-family: "Manrope", sans-serif;
+            font-family: 'Manrope', sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
@@ -564,7 +568,7 @@ section {
     .equipment-title {
       margin-bottom: 40px;
       h5 {
-        font-family: "Manrope", sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 40px;
@@ -605,7 +609,7 @@ section {
             gap: 10px;
 
             h6 {
-              font-family: "Manrope", sans-serif;
+              font-family: 'Manrope', sans-serif;
               font-style: normal;
               font-weight: 500;
               font-size: 16px;
@@ -616,7 +620,7 @@ section {
               border-bottom: 2px solid #00d9a4;
             }
             span {
-              font-family: "Manrope", sans-serif;
+              font-family: 'Manrope', sans-serif;
               font-style: normal;
               font-weight: 400;
               font-size: 16px;
@@ -643,7 +647,7 @@ section {
     .connect-left {
       .connect-title {
         h2 {
-          font-family: "Inter", sans-serif;
+          font-family: 'Inter', sans-serif;
           font-style: normal;
           font-weight: 600;
           font-size: 33px;
