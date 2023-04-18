@@ -9,21 +9,45 @@ function Tabs(options) {
 
   var activeIndex = 0;
 
+  // function init() {
+  //   if (!initCalled) {
+  //     initCalled = true;
+
+  //     for (var i = 0; i < tabNavigationLinks.length; i++) {
+  //       var link = tabNavigationLinks[i];
+  //       clickHandlerSetup(link, i);
+  //     }
+
+  //     if (marker) {
+  //       setMarker(tabNavigationLinks[activeIndex]);
+  //     }
+  //   }
+  // }
+  
   function init() {
     if (!initCalled) {
       initCalled = true;
-
+  
       for (var i = 0; i < tabNavigationLinks.length; i++) {
         var link = tabNavigationLinks[i];
         clickHandlerSetup(link, i);
       }
-
+  
       if (marker) {
         setMarker(tabNavigationLinks[activeIndex]);
       }
+  
+      // Добавляем автоматическое переключение вкладок каждые 2 секунды
+      setInterval(function() {
+        var nextIndex = activeIndex + 1;
+        if (nextIndex >= tabNavigationLinks.length) {
+          nextIndex = 0;
+        }
+        goToTab(nextIndex);
+      }, 5000);
     }
   }
-
+  
   function clickHandlerSetup(link, index) {
     link.addEventListener("click", function (e) {
       e.preventDefault();

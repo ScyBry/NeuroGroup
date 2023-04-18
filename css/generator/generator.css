@@ -7,6 +7,18 @@ section {
   padding-bottom: 0px;
 }
 
+.menu-box .header .container .content-header h1 {
+  padding-top: 25px;
+}
+
+.about-uzor3 {
+  z-index: -1000;
+}
+
+.page-title {
+  padding-top: 25px;
+}
+
 .main-section {
   height: auto;
 }
@@ -198,6 +210,13 @@ section {
 
 .levels-info {
   margin-top: 95px;
+  position: relative;
+}
+.levels-info .levels-bg {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1;
 }
 .levels-info .container {
   max-width: 1180px;
@@ -404,6 +423,7 @@ section {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
+  gap: 10px;
 }
 .graphics .container .graphic-info .item-title {
   display: flex;
@@ -546,8 +566,8 @@ section {
   background-color: black;
   margin-right: 10px;
   margin-top: 8px;
-  min-width: 5px;
-  min-height: 5px;
+  min-width: 4px;
+  min-height: 4px;
 }
 
 .equipment {

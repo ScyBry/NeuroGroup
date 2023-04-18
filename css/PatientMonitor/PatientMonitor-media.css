@@ -1,4 +1,7 @@
 @media screen and (max-width: 1000px) {
+  .generator-info .container .top-img-container .hidden {
+    padding: 17px 0;
+  }
   .columns-info {
     margin-top: 70px;
   }

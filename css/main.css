@@ -2781,11 +2781,29 @@ section.geader-section {
 	padding-left: 15px;
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	padding-top: 15px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;  
+line-height: 19px;
+
+color: #000000;
+
+opacity: 0.4;
 }
 
 .connect-item_name {
 	margin-bottom: 10px;
 	font-size: calc(15px + 1 * ((100vw - 320px) / 1600));
+  font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+opacity: 0.8;
 }
 
 .contacts-right {

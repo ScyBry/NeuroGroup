@@ -1,3 +1,6 @@
+.main-uzor {
+  z-index: 0;
+}
 .columns-info {
   margin-top: 100px;
   .container {
@@ -118,7 +121,7 @@
     background: #fdfffe;
     .column {
       display: flex;
-      border: 1px solid rgba(0, 35, 27, 0.03);
+
       .column-item {
         display: flex;
         flex-direction: column;

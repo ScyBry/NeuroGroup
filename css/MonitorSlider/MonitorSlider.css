@@ -69,7 +69,6 @@
  */
 .c-tab {
   display: none;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .c-tab.is-active {
@@ -81,7 +80,6 @@
   margin-top: 40px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .c-tab__content .tab-main .tab-title h5 {
   font-family: "Manrope", sans-serif;

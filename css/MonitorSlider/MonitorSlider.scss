@@ -4,7 +4,7 @@
   margin: 0 auto;
   .slider-title {
     h2 {
-      font-family: "Manrope", sans-serif;
+      font-family: 'Manrope', sans-serif;
       font-style: normal;
       font-weight: 700;
       font-size: 40px;
@@ -43,7 +43,7 @@
     height: 71px;
   }
   span {
-    font-family: "Manrope", sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -69,7 +69,7 @@
  */
 .c-tab {
   display: none;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  // border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .c-tab.is-active {
@@ -81,11 +81,11 @@
   margin-top: 40px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+
   .tab-main {
     .tab-title {
       h5 {
-        font-family: "Manrope", sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 32px;
@@ -96,7 +96,7 @@
     .tab-text {
       margin-bottom: 20px;
       span {
-        font-family: "Manrope", sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -120,7 +120,7 @@
           height: 28px;
         }
         span {
-          font-family: "Manrope", sans-serif;
+          font-family: 'Manrope', sans-serif;
           font-style: normal;
           font-weight: 500;
           font-size: 16px;
