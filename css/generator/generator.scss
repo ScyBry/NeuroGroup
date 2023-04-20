@@ -10,18 +10,22 @@ section {
     .container {
       .content-header {
         h1 {
-          padding-top: 25px;
+          padding-top: 50px;
         }
       }
     }
   }
 }
+.page-title {
+  padding-top: 50px;
+}
 .about-uzor3 {
   z-index: -1000;
 }
-.page-title {
-  padding-top: 25px;
+.main-uzor {
+  z-index: -0;
 }
+
 .main-section {
   height: auto;
 }
@@ -432,12 +436,12 @@ section {
       display: flex;
       justify-content: space-between;
       margin-top: 10px;
-      gap: 10px;
+
       .item-title {
         display: flex;
         align-items: center;
         gap: 10px;
-        max-width: 50%;
+        max-width: 570px;
         margin-bottom: 0px;
         img {
           width: 28px;
