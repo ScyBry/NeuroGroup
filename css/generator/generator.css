@@ -16,11 +16,12 @@ section {
 }
 
 .about-uzor3 {
+  display: none;
   z-index: -1000;
 }
 
 .main-uzor {
-  z-index: 0;
+  z-index: -1;
 }
 
 .main-section {
