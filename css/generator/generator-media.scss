@@ -1,8 +1,12 @@
 @media screen and (max-width: 1100px) {
+  .main-uzor {
+    display: none;
+  }
   .container {
     margin: 0 10px !important;
     padding: 0px !important;
   }
+
   .content-header {
     h1 {
       font-size: 28px !important;
