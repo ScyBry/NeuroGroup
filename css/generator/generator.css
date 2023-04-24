@@ -16,12 +16,11 @@ section {
 }
 
 .about-uzor3 {
-  display: none;
   z-index: -1000;
 }
 
 .main-uzor {
-  z-index: -1;
+  z-index: 100;
 }
 
 .main-section {
@@ -656,6 +655,7 @@ section {
 }
 
 .connect-section {
+  position: relative;
   margin-top: 100px;
 }
 .connect-section .connect-wrapper .connect-left .connect-title h2 {
