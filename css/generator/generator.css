@@ -112,7 +112,7 @@ section {
 }
 .generator-info .container .columns-container .column .info-container {
   position: absolute;
-  right: 25px;
+  right: 0px;
   bottom: 0px;
   display: flex;
   flex-direction: column;
@@ -133,12 +133,14 @@ section {
   transform: rotate(0deg);
 }
 .generator-info .container .columns-container .column .info-container p {
+  padding-right: 50px;
   font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 33px;
   color: #00231b;
+  text-align: left;
 }
 .generator-info .container .columns-container img {
   height: 100%;
@@ -206,9 +208,9 @@ section {
   padding: 115px 40px 115px 170px;
 }
 .generator-info .container .product-info .container img {
-  width: 440px;
-  height: 100%;
-  top: 0px;
+  width: 342px;
+  height: 192px;
+  top: 130px;
   left: 0px;
 }
 
@@ -301,10 +303,8 @@ section {
 }
 .product-info .container img {
   position: absolute;
-  left: 10px;
-  top: -75px;
-  width: 365.73px;
-  height: 365.73px;
+  left: 80px;
+  top: 0px;
   filter: drop-shadow(8px 8px 20px rgba(0, 0, 0, 0.16));
 }
 .product-info .container .text-container {
@@ -332,6 +332,18 @@ section {
   font-size: 16px;
   line-height: 22px;
   color: #00231b;
+}
+.product-info .container .text-container b {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #00231b;
+}
+
+.skalpel-2 .container img {
+  top: -30px;
 }
 
 .product-info-list {
@@ -554,7 +566,7 @@ section {
 .usedge .container .usedge-items-container .usedge-item ul {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
 }
 .usedge .container .usedge-items-container .usedge-item ul li {
   font-family: "Manrope", sans-serif;

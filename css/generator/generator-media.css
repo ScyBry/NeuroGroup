@@ -81,23 +81,30 @@
     transform: rotate(90deg);
     max-width: 13px;
   }
+  .generator-info .container .product-info {
+    margin-top: 20px;
+  }
   .generator-info .container .product-info .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0 10px;
   }
   .generator-info .container .product-info .container img {
-    position: static;
-    margin-top: 1px;
+    margin-top: 0px !important;
+    position: inherit;
+    margin-bottom: -1px !important;
     left: 0px;
     top: 0px;
-    width: auto;
+    width: 160px;
     height: auto;
-    left: 103px;
   }
   .generator-info .container .product-info .container .text-container {
     width: auto;
     gap: 10px;
     padding: 110px 20px 20px 20px;
-    margin-top: -155px;
+    margin-top: -55px !important;
   }
   .generator-info .container .product-info .container .text-container h5 {
     font-size: 15px;
@@ -107,23 +114,29 @@
     font-size: 14px;
     line-height: 19px;
   }
+  .generator-info .container .product-info .container .text-container b {
+    font-size: 14px;
+    line-height: 19px;
+  }
   .product-info .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0 10px;
   }
   .product-info .container img {
-    position: static;
+    position: inherit;
     margin-top: -85px;
     left: 0px;
     top: 0px;
-    width: auto;
-    height: auto;
-    left: 103px;
+    width: 200px;
+    height: 160px;
   }
   .product-info .container .text-container {
     width: auto;
-    gap: 10px;
+    gap: 20px;
     padding: 110px 20px 20px 20px;
-    margin-top: -155px;
+    margin-top: -85px;
   }
   .product-info .container .text-container h5 {
     font-size: 15px;
@@ -192,9 +205,10 @@
     font-size: 15px;
     line-height: 18px;
   }
-  .graphics .container .graphic-sub-title h5 {
+  .graphics .container .graphic-sub-title h6 {
     font-size: 15px;
     line-height: 20px;
+    font-weight: 400;
   }
   .graphics .container .graphic-info {
     flex-direction: column;

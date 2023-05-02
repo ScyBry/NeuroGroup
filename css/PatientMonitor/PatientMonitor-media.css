@@ -1,4 +1,12 @@
 @media screen and (max-width: 1000px) {
+  .table .container {
+    gap: 15px;
+  }
+  .table .container .table-title h2 {
+    text-align: left;
+    font-size: 23px;
+    line-height: 31px;
+  }
   .generator-info .container .top-img-container .hidden {
     padding: 17px 0;
   }
@@ -58,6 +66,10 @@
     line-height: 20px;
   }
   .work-info .container .column .column-item p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .work-info .container .column .column-item ul li {
     font-size: 14px;
     line-height: 19px;
   }

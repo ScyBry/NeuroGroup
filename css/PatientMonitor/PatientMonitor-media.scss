@@ -1,4 +1,16 @@
 @media screen and (max-width: 1000px) {
+  .table {
+    .container {
+      .table-title {
+        h2 {
+          text-align: left;
+          font-size: 23px;
+          line-height: 31px;
+        }
+      }
+      gap: 15px;
+    }
+  }
   .generator-info {
     .container {
       .top-img-container {
@@ -68,6 +80,12 @@
           p {
             font-size: 14px;
             line-height: 19px;
+          }
+          ul {
+            li {
+              font-size: 14px;
+              line-height: 19px;
+            }
           }
         }
       }
