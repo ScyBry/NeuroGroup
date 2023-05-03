@@ -8,6 +8,29 @@
           line-height: 31px;
         }
       }
+      .table-wrapper {
+        .table-column {
+          font-size: 13px;
+          li {
+            height: 100%;
+            .selected {
+              margin: 0 2px;
+            }
+            text-align: left;
+            height: 50px;
+            .table-title {
+              font-size: 13px;
+            }
+            .table-item {
+              font-size: 13px;
+              padding: 0px !important;
+            }
+          }
+          .table-item {
+            padding: 0 8px;
+          }
+        }
+      }
       gap: 15px;
     }
   }

@@ -7,6 +7,27 @@
     font-size: 23px;
     line-height: 31px;
   }
+  .table .container .table-wrapper .table-column {
+    font-size: 13px;
+  }
+  .table .container .table-wrapper .table-column li {
+    height: 100%;
+    text-align: left;
+    height: 50px;
+  }
+  .table .container .table-wrapper .table-column li .selected {
+    margin: 0 2px;
+  }
+  .table .container .table-wrapper .table-column li .table-title {
+    font-size: 13px;
+  }
+  .table .container .table-wrapper .table-column li .table-item {
+    font-size: 13px;
+    padding: 0px !important;
+  }
+  .table .container .table-wrapper .table-column .table-item {
+    padding: 0 8px;
+  }
   .generator-info .container .top-img-container .hidden {
     padding: 17px 0;
   }

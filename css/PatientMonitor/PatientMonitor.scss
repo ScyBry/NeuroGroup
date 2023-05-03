@@ -4,6 +4,11 @@
 .table {
   margin-top: 60px;
   .container {
+    margin: 0 auto;
+    max-width: 770px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     .table-title {
       h2 {
         text-align: center;
@@ -15,12 +20,75 @@
         color: #00231b;
       }
     }
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 770px;
-    margin: 0 auto;
-    gap: 30px;
+    .table-wrapper {
+      display: flex;
+      width: 100%;
+      .table-column {
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #00231b;
+        display: flex;
+        flex-direction: column;
+
+        &:first-child {
+          width: 30%;
+        }
+        &:last-child {
+          width: 70%;
+        }
+        li {
+          padding: 4px 0px 4px 10px;
+          height: 30px;
+          border: 1px solid black;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          // justify-content: center;
+          .table-title {
+            color: #00231b;
+            font-weight: 700;
+          }
+
+          .table-item {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Manrope', sans-serif;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 22px;
+            color: #00231b;
+            padding: 0px 20px;
+            border-right: 1px solid #000000;
+            text-align: center;
+            &:last-child {
+              border-right: none;
+            }
+            &:first-child {
+              border-left: none;
+            }
+          }
+          .selected {
+            color: #00231b;
+            font-weight: 600;
+            background: #c7ddd7;
+          }
+          &::before {
+            display: none;
+          }
+        }
+      }
+      .right-column {
+        li {
+          justify-content: center !important;
+        }
+      }
+    }
   }
 }
 .columns-info {
