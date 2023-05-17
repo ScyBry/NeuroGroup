@@ -2,6 +2,10 @@ body {
   overflow-x: visible;
 }
 
+.menu-box .header .container .content-header h1 {
+  padding-top: 50px;
+}
+
 .monitor-info {
   margin-top: 40px;
 }
